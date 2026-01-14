@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: not installed -->
+  <XFMParmor_MissingBodyPart_NotInstalled.label>not installed</XFMParmor_MissingBodyPart_NotInstalled.label>
+  <!-- EN: This part is not installed yet. -->
+  <XFMParmor_MissingBodyPart_NotInstalled.description>This part is not installed yet.</XFMParmor_MissingBodyPart_NotInstalled.description>
+  <!-- EN: not installed -->
+  <XFMParmor_MissingBodyPart_NotInstalled.labelNoun>not installed</XFMParmor_MissingBodyPart_NotInstalled.labelNoun>
+  <!-- EN: {1} is not installed -->
+  <XFMParmor_MissingBodyPart_NotInstalled.labelNounPretty>{1} is not installed</XFMParmor_MissingBodyPart_NotInstalled.labelNounPretty>
+  <!-- EN: not installed -->
+  <XFMParmor_MissingBodyPart_NotInstalled_Blade.label>not installed</XFMParmor_MissingBodyPart_NotInstalled_Blade.label>
+  <!-- EN: This part is not installed yet. -->
+  <XFMParmor_MissingBodyPart_NotInstalled_Blade.description>This part is not installed yet.</XFMParmor_MissingBodyPart_NotInstalled_Blade.description>
+  <!-- EN: not installed -->
+  <XFMParmor_MissingBodyPart_NotInstalled_Blade.labelNoun>not installed</XFMParmor_MissingBodyPart_NotInstalled_Blade.labelNoun>
+  <!-- EN: {1} is not installed -->
+  <XFMParmor_MissingBodyPart_NotInstalled_Blade.labelNounPretty>{1} is not installed</XFMParmor_MissingBodyPart_NotInstalled_Blade.labelNounPretty>
+</LanguageData>

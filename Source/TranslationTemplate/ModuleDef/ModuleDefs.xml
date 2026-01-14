@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: combat recreation module -->
+  <Module_ComfortAndJoy.label>combat recreation module</Module_ComfortAndJoy.label>
+  <!-- EN: Armed with softened sofa and on-board recreation system, this module provides a comfortable cockpit enviroment and electronic entertainments, a luxury in battlefields. -->
+  <Module_ComfortAndJoy.description>Armed with softened sofa and on-board recreation system, this module provides a comfortable cockpit enviroment and electronic entertainments, a luxury in battlefields.</Module_ComfortAndJoy.description>
+  <!-- EN: heavy duty battery -->
+  <Module_LargeBattery.label>heavy duty battery</Module_LargeBattery.label>
+  <!-- EN: This module triples the mechframe's internal battery capacity. -->
+  <Module_LargeBattery.description>This module triples the mechframe's internal battery capacity.</Module_LargeBattery.description>
+  <!-- EN: solar panel module -->
+  <Module_SolarPower.label>solar panel module</Module_SolarPower.label>
+  <!-- EN: An array of photoelectric cells charges the mechframe using solar power when inactive. -->
+  <Module_SolarPower.description>An array of photoelectric cells charges the mechframe using solar power when inactive.</Module_SolarPower.description>
+  <!-- EN: field supply module -->
+  <Module_Supply.label>field supply module</Module_Supply.label>
+  <!-- EN: This module consumes field supply ration to replenish pilot's food and rest needs in action. Does not fully replace actual bed rests as side effects may follow. -->
+  <Module_Supply.description>This module consumes field supply ration to replenish pilot's food and rest needs in action. Does not fully replace actual bed rests as side effects may follow.</Module_Supply.description>
+</LanguageData>

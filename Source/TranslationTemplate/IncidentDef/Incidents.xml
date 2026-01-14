@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Mechframe wreckage crash -->
+  <MParmor_WreckageFall.label>Mechframe wreckage crash</MParmor_WreckageFall.label>
+  <!-- EN: Mech wreckage crash -->
+  <MParmor_WreckageFall.letterLabel>Mech wreckage crash</MParmor_WreckageFall.letterLabel>
+  <!-- EN: A mechframe's wreckage is crashing near the colony! Power cores may be salvaged from it to make your own mechframes. -->
+  <MParmor_WreckageFall.letterText>A mechframe's wreckage is crashing near the colony! Power cores may be salvaged from it to make your own mechframes.</MParmor_WreckageFall.letterText>
+  <!-- EN: Defended mechframe core -->
+  <XFMParmor_GiveQuest_SleepingMechanoids.label>Defended mechframe core</XFMParmor_GiveQuest_SleepingMechanoids.label>
+  <!-- EN: defended mech core -->
+  <XFMParmor_GiveQuest_SleepingMechanoids.letterLabel>defended mech core</XFMParmor_GiveQuest_SleepingMechanoids.letterLabel>
+  <!-- EN: A mechframe power core is being defended by mechanoids. The cores can be retrieved if the mechanoid threat is dealt with. -->
+  <XFMParmor_GiveQuest_SleepingMechanoids.letterText>A mechframe power core is being defended by mechanoids. The cores can be retrieved if the mechanoid threat is dealt with.</XFMParmor_GiveQuest_SleepingMechanoids.letterText>
+  <!-- EN: Raid: Anti-MF -->
+  <XFMParmor_RaidEnemy_AntiMPArmor.label>Raid: Anti-MF</XFMParmor_RaidEnemy_AntiMPArmor.label>
+</LanguageData>

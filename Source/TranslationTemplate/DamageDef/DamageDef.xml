@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: shock wave -->
+  <MParmor_Black_BombDamage.label>shock wave</MParmor_Black_BombDamage.label>
+  <!-- EN: {0} has been stunned to death. -->
+  <MParmor_Black_BombDamage.deathMessage>{0} has been stunned to death.</MParmor_Black_BombDamage.deathMessage>
+  <!-- EN: frozen flood -->
+  <MParmor_Bomb_ColdWave.label>frozen flood</MParmor_Bomb_ColdWave.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <MParmor_Bomb_ColdWave.deathMessage>{0} has died in an explosion.</MParmor_Bomb_ColdWave.deathMessage>
+  <!-- EN: ice spike -->
+  <MParmor_Bomb_IceSpike.label>ice spike</MParmor_Bomb_IceSpike.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <MParmor_Bomb_IceSpike.deathMessage>{0} has died in an explosion.</MParmor_Bomb_IceSpike.deathMessage>
+  <!-- EN: bomb -->
+  <MParmor_BombWithoutShake.label>bomb</MParmor_BombWithoutShake.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <MParmor_BombWithoutShake.deathMessage>{0} has died in an explosion.</MParmor_BombWithoutShake.deathMessage>
+  <!-- EN: bomb -->
+  <MParmor_BombWithoutShake_PreventFriendly.label>bomb</MParmor_BombWithoutShake_PreventFriendly.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <MParmor_BombWithoutShake_PreventFriendly.deathMessage>{0} has died in an explosion.</MParmor_BombWithoutShake_PreventFriendly.deathMessage>
+  <!-- EN: frost -->
+  <MParmor_FrostBullet.label>frost</MParmor_FrostBullet.label>
+  <!-- EN: {0} has been shot to death. -->
+  <MParmor_FrostBullet.deathMessage>{0} has been shot to death.</MParmor_FrostBullet.deathMessage>
+  <!-- EN: bomb -->
+  <MParmor_SlefDestructBomb.label>bomb</MParmor_SlefDestructBomb.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <MParmor_SlefDestructBomb.deathMessage>{0} has died in an explosion.</MParmor_SlefDestructBomb.deathMessage>
+</LanguageData>

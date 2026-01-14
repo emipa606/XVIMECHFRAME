@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Crow: shield barrier, shockblast -->
+  <DataLibrary.forceFriendlyFire.0>Crow: shield barrier, shockblast</DataLibrary.forceFriendlyFire.0>
+  <!-- EN: Falcon: active reflection, charged assault -->
+  <DataLibrary.forceFriendlyFire.1>Falcon: active reflection, charged assault</DataLibrary.forceFriendlyFire.1>
+  <!-- EN: Owl: arctical gale, frozen flood -->
+  <DataLibrary.forceFriendlyFire.2>Owl: arctical gale, frozen flood</DataLibrary.forceFriendlyFire.2>
+  <!-- EN: Sparrow: defensive order -->
+  <DataLibrary.forceFriendlyFire.3>Sparrow: defensive order</DataLibrary.forceFriendlyFire.3>
+  <!-- EN: Mechframe self-destruct friendly damage -->
+  <DataLibrary.forceFriendlyFire.4>Mechframe self-destruct friendly damage</DataLibrary.forceFriendlyFire.4>
+  <!-- EN: Repulsor field generator -->
+  <DataLibrary.forceFriendlyFire.5>Repulsor field generator</DataLibrary.forceFriendlyFire.5>
+</LanguageData>

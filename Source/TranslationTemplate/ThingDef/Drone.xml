@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mecha drone -->
+  <XFMParmor_Drone_Carrier.label>mecha drone</XFMParmor_Drone_Carrier.label>
+  <!-- EN: A quad drone manufactured by carrier mechframe's internal forge. Accepts certain simple commands and will return to carrier when battery depletes. -->
+  <XFMParmor_Drone_Carrier.description>A quad drone manufactured by carrier mechframe's internal forge. Accepts certain simple commands and will return to carrier when battery depletes.</XFMParmor_Drone_Carrier.description>
+  <!-- EN: left rotor blade -->
+  <XFMParmor_Drone_Carrier.tools.left_rotor_blade.label>left rotor blade</XFMParmor_Drone_Carrier.tools.left_rotor_blade.label>
+  <!-- EN: right rotor blade -->
+  <XFMParmor_Drone_Carrier.tools.right_rotor_blade.label>right rotor blade</XFMParmor_Drone_Carrier.tools.right_rotor_blade.label>
+</LanguageData>

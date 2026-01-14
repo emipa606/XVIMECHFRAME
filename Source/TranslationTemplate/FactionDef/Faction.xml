@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Anti-mechframe activatists -->
+  <XFMParmor_AntiMParmor.label>Anti-mechframe activatists</XFMParmor_AntiMParmor.label>
+  <!-- EN: Mech crushers -->
+  <XFMParmor_AntiMParmor.fixedName>Mech crushers</XFMParmor_AntiMParmor.fixedName>
+  <!-- EN: leader -->
+  <XFMParmor_AntiMParmor.leaderTitle>leader</XFMParmor_AntiMParmor.leaderTitle>
+  <!-- EN: {0} from {1} are attacking your {2}. -->
+  <XFMParmor_AntiMParmor.messageDefendersAttacking>{0} from {1} are attacking your {2}.</XFMParmor_AntiMParmor.messageDefendersAttacking>
+  <!-- EN: mech crusher -->
+  <XFMParmor_AntiMParmor.pawnSingular>mech crusher</XFMParmor_AntiMParmor.pawnSingular>
+  <!-- EN: mech crushers -->
+  <XFMParmor_AntiMParmor.pawnsPlural>mech crushers</XFMParmor_AntiMParmor.pawnsPlural>
+</LanguageData>

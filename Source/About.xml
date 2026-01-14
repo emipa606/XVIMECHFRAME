@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>XVI-MECHFRAME</name>
+  <!-- 1394869809 -->
+  <author>andery233xj[旋风]</author>
+  <packageId>andery233xj.mod.MechanicalPoweredArmor</packageId>
+  <supportedVersions>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+      <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>brrainz.harmony</li>
+    <li>CETeam.CombatExtended</li>
+  </loadAfter>
+  <description>
+    &lt;b>&lt;color=#0094ff>XVI-MECHFRAME&lt;/color>&lt;/b>
+    &lt;b>&lt;color=#0094ff>>Version 1.5 is currently in the testing phase. Please make sure to backup the archive before use and voluntarily bear the consequences of testing.&lt;/color>&lt;/b>
+    This mod adds a new kind of manned mechanical combat armor that dominates battlefield with their unique weapon and skillset and protects your colony.
+    
+    &lt;b>&lt;color=#0094ff>>Assembly&lt;/color>&lt;/b>: The construction of mechframes are conducted automatically via assembly bays connected to assembly nexus, freeing your crafter from lengthy building process.
+    &lt;b>&lt;color=#0094ff>>Fuel&lt;/color>&lt;/b>: The mechframes runs on electricity, either charged at the assembly bay or replenished by replacing rechargable batteries.
+    &lt;b>&lt;color=#0094ff>>Survivability&lt;/color>&lt;/b>: The mechframes are protected by a layer of regenerating shield backed up by non-regenerating armor panels which needs to be repaired when damaged.
+    &lt;b>&lt;color=#0094ff>>Weaponry&lt;/color>&lt;/b>: Each mechframe model has their own heavy weapon automatically equiped when boarded.
+    &lt;b>&lt;color=#0094ff>>Skill set&lt;/color>&lt;/b>: Each mechframe can impact the battlefield with their special capabilities, try them out to see what they can achieve!
+    &lt;b>&lt;color=#0094ff>>Intellect combat&lt;/color>&lt;/b>: If assisted combat is toggled, your mechframe pilots will fight on their own! Less micro management!
+    &lt;b>&lt;color=#0094ff>>Modular upgrades&lt;/color>&lt;/b>: Some extra abilities can be added by the installing of cetain upgrades? Pawn starving when fighting? Kept running low on battery? We get you covered.
+
+    >We tried our best to cover every detail we are aware of, attacks will not stop or knock off your war machines, some skills can be set to no friendly damage via the mod setting, auto-eject in case of mental break, convenient static display and more!
+    >Be aware! Owning mechframes also attracts attention to a unique threat: The mech crushers. Not only armed with weapons tailored against mechframes, they'll also employ a much more intellegent tactics, even changing roles when needed!
+    >Possibility of expansion: This mod is coded with modularity and third-party expansion in mind, which makes add-ons possible. Contact the author for more!
+    >Built-in Combat Extended compatibility! Pilot mechframes while wearing your mexican sombrero without the hassle of waiting for patches!
+
+    Q and A
+    Q: Does this mod require a new save?
+    A: No, this mod is mid-save compatible.
+
+    Q: Will more mechframe variants be added?
+    A: It's completely possible in the future. 
+
+    Q: Will enemies use mechframes?
+    A: Unfortunately, they won't use them now.
+
+     If anyone is willing to provide translation, please contact me. I'll try my best to provide assistance, and proper credit will be given once the translation is in use.
+
+    After 442 days of development, we are finally able to finish and publish this mod. The development team includes:
+    Project lead: 旋风
+    Programmer: 旋风(andery233xj)
+    Artists; 青叶(AOBA)，Bill Doors(3HST有限公司)
+    Partial artistic support: 金兔子(金兔子拉面)
+    Programming advisor: 影兔(shadowrabbit)
+    Initial artistic support: Frolg(Frolg)
+    English localization: Bill Doors
+    English proofreader: Zeta04(Zeta04)
+    Chief tester: 塔洛斯(塔洛斯)</description>
+</ModMetaData>

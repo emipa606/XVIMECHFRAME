@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mechframe core: sparrow -->
+  <XFMParmor_MechanicalArmorCore_Carrier.label>mechframe core: sparrow</XFMParmor_MechanicalArmorCore_Carrier.label>
+  <!-- EN: The core of mechframe sparrow. -->
+  <XFMParmor_MechanicalArmorCore_Carrier.description>The core of mechframe sparrow.</XFMParmor_MechanicalArmorCore_Carrier.description>
+  <!-- EN: >Attacks hostiles with ranged attack.\n>If three drones are standby, use offensive order to assist in attacks.\n>If at least two drones are standby, when an ally is harmed by melee damage, dispatch drones to assist in melee attack with offensive order.\n>If at least two drones are standby, when an ally is harmed by ranged damage, dispatch drones to defend the ally with defensive order.\n>If harmed by melee damage, dispatch drones to assist in melee attack with offensive order.\n>If harmed by ranged damage, dispatch drones to defend self with defensive order. -->
+  <XFMParmor_MechanicalArmorCore_Carrier.comps.CompMechanicalArmor.AiText>>Attacks hostiles with ranged attack.
+>If three drones are standby, use offensive order to assist in attacks.
+>If at least two drones are standby, when an ally is harmed by melee damage, dispatch drones to assist in melee attack with offensive order.
+>If at least two drones are standby, when an ally is harmed by ranged damage, dispatch drones to defend the ally with defensive order.
+>If harmed by melee damage, dispatch drones to assist in melee attack with offensive order.
+>If harmed by ranged damage, dispatch drones to defend self with defensive order.</XFMParmor_MechanicalArmorCore_Carrier.comps.CompMechanicalArmor.AiText>
+  <!-- EN: Dispatches drone to protect the target. The drone shields the target from hostile fire while allowing the protected target to fire uninterrupted. -->
+  <XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.0.description>Dispatches drone to protect the target. The drone shields the target from hostile fire while allowing the protected target to fire uninterrupted.</XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.0.description>
+  <!-- EN: defensive order -->
+  <XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.0.verb.label>defensive order</XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.0.verb.label>
+  <!-- EN: Dispatches drone to attack the target. The drone's rotor blades can cut into enemy in close combat, disrupting them in the process. -->
+  <XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.1.description>Dispatches drone to attack the target. The drone's rotor blades can cut into enemy in close combat, disrupting them in the process.</XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.1.description>
+  <!-- EN: aggresive order -->
+  <XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.1.verb.label>aggresive order</XFMParmor_MechanicalArmorCore_Carrier.comps.CompSkills.skills.1.verb.label>
+  <!-- EN: mechframe light machinegun -->
+  <XFMParmor_Weapon_Carrier.label>mechframe light machinegun</XFMParmor_Weapon_Carrier.label>
+  <!-- EN: Charged LMG linked to drones with fire coordinator chips, when the LMG fires, the drone's charge blaster fires too. -->
+  <XFMParmor_Weapon_Carrier.description>Charged LMG linked to drones with fire coordinator chips, when the LMG fires, the drone's charge blaster fires too.</XFMParmor_Weapon_Carrier.description>
+  <!-- EN: stock -->
+  <XFMParmor_Weapon_Carrier.tools.stock.label>stock</XFMParmor_Weapon_Carrier.tools.stock.label>
+  <!-- EN: mechframe light machinegun -->
+  <XFMParmor_Weapon_Carrier.verbs.Verb_ShootClustered.label>mechframe light machinegun</XFMParmor_Weapon_Carrier.verbs.Verb_ShootClustered.label>
+  <!-- EN: charge shot -->
+  <XFMParmor_Weapon_Carrier_Bullet.label>charge shot</XFMParmor_Weapon_Carrier_Bullet.label>
+</LanguageData>

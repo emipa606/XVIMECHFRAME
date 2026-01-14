@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: shield barrier -->
+  <XFMParmor_Black_Shield.label>shield barrier</XFMParmor_Black_Shield.label>
+  <!-- EN: A barrier that blocks hostile attacks yet allow friendly fire to pass undisrupted. Shatters after absorbing too much damage. -->
+  <XFMParmor_Black_Shield.description>A barrier that blocks hostile attacks yet allow friendly fire to pass undisrupted. Shatters after absorbing too much damage.</XFMParmor_Black_Shield.description>
+  <!-- EN: rocket artillery -->
+  <XFMParmor_Bullet_BlackA.label>rocket artillery</XFMParmor_Bullet_BlackA.label>
+  <!-- EN: mechframe core: crow -->
+  <XFMParmor_MechanicalArmorCore_Black.label>mechframe core: crow</XFMParmor_MechanicalArmorCore_Black.label>
+  <!-- EN: The core of mechframe crow -->
+  <XFMParmor_MechanicalArmorCore_Black.description>The core of mechframe crow</XFMParmor_MechanicalArmorCore_Black.description>
+  <!-- EN: >Attacks hostiles with ranged attack.\n>If avaliable, ssist with rocket barrage when firing.\n>When harmed by ranged attack, automatically deploys shield barrier towards the origin of damage.\n>When harmed by melee attack, automatically fires shock blast. -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompMechanicalArmor.AiText>>Attacks hostiles with ranged attack.
+>If avaliable, ssist with rocket barrage when firing.
+>When harmed by ranged attack, automatically deploys shield barrier towards the origin of damage.
+>When harmed by melee attack, automatically fires shock blast.</XFMParmor_MechanicalArmorCore_Black.comps.CompMechanicalArmor.AiText>
+  <!-- EN: Fires a volley of rockets in rapid succession, saturating target with firepower. -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.0.description>Fires a volley of rockets in rapid succession, saturating target with firepower.</XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.0.description>
+  <!-- EN: rocket barrage -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.0.verb.label>rocket barrage</XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.0.verb.label>
+  <!-- EN: Raise a shield wall at target location, blocking hostile projectiles and blastwaves, while allowing friendly projectiles to pass. -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.1.description>Raise a shield wall at target location, blocking hostile projectiles and blastwaves, while allowing friendly projectiles to pass.</XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.1.description>
+  <!-- EN: shield barrier -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.1.verb.label>shield barrier</XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.1.verb.label>
+  <!-- EN: Unleashes a shock blast that slows down enemies within range, interrupts their attacks, and have a chance to disarm them. -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.2.description>Unleashes a shock blast that slows down enemies within range, interrupts their attacks, and have a chance to disarm them.</XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.2.description>
+  <!-- EN: shock blast -->
+  <XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.2.verb.label>shock blast</XFMParmor_MechanicalArmorCore_Black.comps.CompSkills.skills.2.verb.label>
+  <!-- EN: mechframe heavy machinegun -->
+  <XFMParmor_Weapon_Black.label>mechframe heavy machinegun</XFMParmor_Weapon_Black.label>
+  <!-- EN: A charged heavy machinegun feared for its impressive sustained firepower. -->
+  <XFMParmor_Weapon_Black.description>A charged heavy machinegun feared for its impressive sustained firepower.</XFMParmor_Weapon_Black.description>
+  <!-- EN: stock -->
+  <XFMParmor_Weapon_Black.tools.stock.label>stock</XFMParmor_Weapon_Black.tools.stock.label>
+  <!-- EN: mechframe heavy machinegun -->
+  <XFMParmor_Weapon_Black.verbs.Verb_Shoot.label>mechframe heavy machinegun</XFMParmor_Weapon_Black.verbs.Verb_Shoot.label>
+  <!-- EN: charge shot -->
+  <XFMParmor_Weapon_Black_Bullet.label>charge shot</XFMParmor_Weapon_Black_Bullet.label>
+</LanguageData>

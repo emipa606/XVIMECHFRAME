@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: They are attacking immediately.\n\nThese raiders are devoted to destroy your mechframes. They are armed with weapons designated for this purpose, will exhibit complex tactics and will focus fire on your mechframes. -->
+  <XFMParmor_RaidStrategy_AntiMPArmor.arrivalTextEnemy>They are attacking immediately.
+
+These raiders are devoted to destroy your mechframes. They are armed with weapons designated for this purpose, will exhibit complex tactics and will focus fire on your mechframes.</XFMParmor_RaidStrategy_AntiMPArmor.arrivalTextEnemy>
+  <!-- EN: Anti-mech raid -->
+  <XFMParmor_RaidStrategy_AntiMPArmor.letterLabelEnemy>Anti-mech raid</XFMParmor_RaidStrategy_AntiMPArmor.letterLabelEnemy>
+</LanguageData>

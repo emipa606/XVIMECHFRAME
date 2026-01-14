@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: wrecked power core -->
+  <XFMParmor_MechanicalArmorCore_Wreckage.label>wrecked power core</XFMParmor_MechanicalArmorCore_Wreckage.label>
+  <!-- EN: Damaged mechframe core that is on the fringe of explosive disintergration. (Does not harm friendlies, configurable in mod setting) -->
+  <XFMParmor_MechanicalArmorCore_Wreckage.description>Damaged mechframe core that is on the fringe of explosive disintergration. (Does not harm friendlies, configurable in mod setting)</XFMParmor_MechanicalArmorCore_Wreckage.description>
+  <!-- EN: Activate the ejection seat to push the pilot away from exploding wreck, away from enemies, and straight into the military court. -->
+  <XFMParmor_MechanicalArmorCore_Wreckage.comps.CompSkills.skills.0.description>Activate the ejection seat to push the pilot away from exploding wreck, away from enemies, and straight into the military court.</XFMParmor_MechanicalArmorCore_Wreckage.comps.CompSkills.skills.0.description>
+  <!-- EN: Eject pilot -->
+  <XFMParmor_MechanicalArmorCore_Wreckage.comps.CompSkills.skills.0.verb.label>Eject pilot</XFMParmor_MechanicalArmorCore_Wreckage.comps.CompSkills.skills.0.verb.label>
+  <!-- EN: flying -->
+  <XFMParmor_PawnJumper_LaunchDriver.label>flying</XFMParmor_PawnJumper_LaunchDriver.label>
+  <!-- EN: mechframe wreckage -->
+  <XFMParmor_Wreckage_Black.label>mechframe wreckage</XFMParmor_Wreckage_Black.label>
+  <!-- EN: mechframe wreckage -->
+  <XFMParmor_Wreckage_Black.description>mechframe wreckage</XFMParmor_Wreckage_Black.description>
+  <!-- EN: falling wreckage -->
+  <XFMParmor_Wreckage_Falling.label>falling wreckage</XFMParmor_Wreckage_Falling.label>
+  <!-- EN: mechframe wreckage -->
+  <XFMParmor_Wreckage_Misc.label>mechframe wreckage</XFMParmor_Wreckage_Misc.label>
+  <!-- EN: mechframe wreckage -->
+  <XFMParmor_Wreckage_Misc.description>mechframe wreckage</XFMParmor_Wreckage_Misc.description>
+  <!-- EN: mechframe wreckage -->
+  <XFMParmor_Wreckage_OutQuest.label>mechframe wreckage</XFMParmor_Wreckage_OutQuest.label>
+  <!-- EN: mechframe wreckage -->
+  <XFMParmor_Wreckage_OutQuest.description>mechframe wreckage</XFMParmor_Wreckage_OutQuest.description>
+</LanguageData>

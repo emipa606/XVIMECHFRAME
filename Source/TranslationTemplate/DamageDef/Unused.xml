@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: 炸 -->
+  <XFUnused_BombWithDirection.label>炸</XFUnused_BombWithDirection.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <XFUnused_BombWithDirection.deathMessage>{0} has died in an explosion.</XFUnused_BombWithDirection.deathMessage>
+</LanguageData>

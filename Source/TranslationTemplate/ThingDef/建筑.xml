@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mechframe fabrication nexus -->
+  <XFMParmor_FabricationCentralSystem.label>mechframe fabrication nexus</XFMParmor_FabricationCentralSystem.label>
+  <!-- EN: High tech computing system that enabling connected fabrication bays to manufacture mechframes. Multiple bays may be controled by a single nexus in the same time. -->
+  <XFMParmor_FabricationCentralSystem.description>High tech computing system that enabling connected fabrication bays to manufacture mechframes. Multiple bays may be controled by a single nexus in the same time.</XFMParmor_FabricationCentralSystem.description>
+  <!-- EN: fabrication bay -->
+  <XFMParmor_FabricationPit.label>fabrication bay</XFMParmor_FabricationPit.label>
+  <!-- EN: Specialized sunken structure designed to store, construct, maintain, repair, recharge mechframes. Can be used to recharge the battery for mechframes that are powered off and parked onto it. Only one mechframe may be parked at the same time. -->
+  <XFMParmor_FabricationPit.description>Specialized sunken structure designed to store, construct, maintain, repair, recharge mechframes. Can be used to recharge the battery for mechframes that are powered off and parked onto it. Only one mechframe may be parked at the same time.</XFMParmor_FabricationPit.description>
+  <!-- EN: unfinished mechframe -->
+  <XFMParmor_UnfinishedMParmor.label>unfinished mechframe</XFMParmor_UnfinishedMParmor.label>
+  <XFMParmor_UnfinishedMParmor.description />
+</LanguageData>

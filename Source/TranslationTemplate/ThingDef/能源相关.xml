@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: battery charging station -->
+  <XFMParmor_ChargingStation.label>battery charging station</XFMParmor_ChargingStation.label>
+  <!-- EN: Charges mechframe battery from power grid, with configurable power level. -->
+  <XFMParmor_ChargingStation.description>Charges mechframe battery from power grid, with configurable power level.</XFMParmor_ChargingStation.description>
+  <!-- EN: filled mechframe battery -->
+  <XFMParmor_FilledPowerCell.label>filled mechframe battery</XFMParmor_FilledPowerCell.label>
+  <!-- EN: Completely charged and combat ready battery, can be used to rapidly replace spent batteries on mechframes. -->
+  <XFMParmor_FilledPowerCell.description>Completely charged and combat ready battery, can be used to rapidly replace spent batteries on mechframes.</XFMParmor_FilledPowerCell.description>
+  <!-- EN: mechframe battery -->
+  <XFMParmor_UnfilledPowerCell.label>mechframe battery</XFMParmor_UnfilledPowerCell.label>
+  <!-- EN: Mechframe battery that is not fully charged yet. Safety measures prevents batteries with less than optimal voltage to be used on mechframes. -->
+  <XFMParmor_UnfilledPowerCell.description>Mechframe battery that is not fully charged yet. Safety measures prevents batteries with less than optimal voltage to be used on mechframes.</XFMParmor_UnfilledPowerCell.description>
+</LanguageData>

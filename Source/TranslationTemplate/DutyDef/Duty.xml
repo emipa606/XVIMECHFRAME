@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: AMF squad leader -->
+  <XFMParmor_AntiMParmor_Leader.label>AMF squad leader</XFMParmor_AntiMParmor_Leader.label>
+  <!-- EN: AMF ranged combatant -->
+  <XFMParmor_AntiMParmor_LongDistance.label>AMF ranged combatant</XFMParmor_AntiMParmor_LongDistance.label>
+  <!-- EN: AMF melee combatant -->
+  <XFMParmor_AntiMParmor_Melee.label>AMF melee combatant</XFMParmor_AntiMParmor_Melee.label>
+  <!-- EN: AMF grenadier -->
+  <XFMParmor_AntiMParmor_Rocket.label>AMF grenadier</XFMParmor_AntiMParmor_Rocket.label>
+  <!-- EN: AMF standard combatant -->
+  <XFMParmor_AntiMParmor_Standard.label>AMF standard combatant</XFMParmor_AntiMParmor_Standard.label>
+  <!-- EN: AMF demolisher -->
+  <XFMParmor_Destructer.label>AMF demolisher</XFMParmor_Destructer.label>
+  <!-- EN: AMF shielder -->
+  <XFMParmor_DestructerFollower.label>AMF shielder</XFMParmor_DestructerFollower.label>
+</LanguageData>

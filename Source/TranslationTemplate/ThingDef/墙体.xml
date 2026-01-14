@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: raised articulated wall -->
+  <XFMParmor_DescendingWall.label>raised articulated wall</XFMParmor_DescendingWall.label>
+  <!-- EN: The internal mechanisms allows this wall to be raised or lowered when powered. Safety system prevents activation under combat situations. -->
+  <XFMParmor_DescendingWall.description>The internal mechanisms allows this wall to be raised or lowered when powered. Safety system prevents activation under combat situations.</XFMParmor_DescendingWall.description>
+  <!-- EN: lowered articulated wall -->
+  <XFMParmor_DescendingWall_Descending.label>lowered articulated wall</XFMParmor_DescendingWall_Descending.label>
+  <!-- EN: The internal mechanisms allows this wall to be raised or lowered when powered. Safety system prevents activation under combat situations. -->
+  <XFMParmor_DescendingWall_Descending.description>The internal mechanisms allows this wall to be raised or lowered when powered. Safety system prevents activation under combat situations.</XFMParmor_DescendingWall_Descending.description>
+  <!-- EN: regenerating wall -->
+  <XFMParmor_SelfRepairingWall.label>regenerating wall</XFMParmor_SelfRepairingWall.label>
+  <!-- EN: Advanced wall that repairs damage overtime at the expence of heightened power consumption. -->
+  <XFMParmor_SelfRepairingWall.description>Advanced wall that repairs damage overtime at the expence of heightened power consumption.</XFMParmor_SelfRepairingWall.description>
+</LanguageData>

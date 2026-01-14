@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: arctic gale -->
+  <XFMParmor_ArcticWind.label>arctic gale</XFMParmor_ArcticWind.label>
+  <!-- EN: ice spike -->
+  <XFMParmor_IceSpike.label>ice spike</XFMParmor_IceSpike.label>
+  <!-- EN: The ice spikes provide cover for mechframes, pierce enemy that step onto it and detonates, potentially setting off adjacent ice spikes in a chain reaction. They self-detonate if remain inactive for too long. -->
+  <XFMParmor_IceSpike.description>The ice spikes provide cover for mechframes, pierce enemy that step onto it and detonates, potentially setting off adjacent ice spikes in a chain reaction. They self-detonate if remain inactive for too long.</XFMParmor_IceSpike.description>
+  <!-- EN: mechframe core: owl -->
+  <XFMParmor_MechanicalArmorCore_Aqua.label>mechframe core: owl</XFMParmor_MechanicalArmorCore_Aqua.label>
+  <!-- EN: the core of owl mechframe. -->
+  <XFMParmor_MechanicalArmorCore_Aqua.description>the core of owl mechframe.</XFMParmor_MechanicalArmorCore_Aqua.description>
+  <!-- EN: >Attacks hostiles with ranged attack.\n>Adjust weapon mode according to target distance.\n>If avaliable, automatically use frozen flood.\n>When harmed by melee damage, use frozen flood towards damage source if avaliable.\n>Attack targets currently bleeding with arctic gale if avaliable. -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompMechanicalArmor.AiText>>Attacks hostiles with ranged attack.
+>Adjust weapon mode according to target distance.
+>If avaliable, automatically use frozen flood.
+>When harmed by melee damage, use frozen flood towards damage source if avaliable.
+>Attack targets currently bleeding with arctic gale if avaliable.</XFMParmor_MechanicalArmorCore_Aqua.comps.CompMechanicalArmor.AiText>
+  <!-- EN: Toggles the compound lance between speed mode and precision mode. -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.0.description>Toggles the compound lance between speed mode and precision mode.</XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.0.description>
+  <!-- EN: mode switch -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.0.verb.label>mode switch</XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.0.verb.label>
+  <!-- EN: Spawns the arctic gale at target location. The arctic gale damages enemy within effect area and transform their spilling blood into deadly ice splinters. -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.1.description>Spawns the arctic gale at target location. The arctic gale damages enemy within effect area and transform their spilling blood into deadly ice splinters.</XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.1.description>
+  <!-- EN: arctic gale -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.1.verb.label>arctic gale</XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.1.verb.label>
+  <!-- EN: Sprays out a wave of ice spikes that can be used as cover or to harm passing enemies. -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.2.description>Sprays out a wave of ice spikes that can be used as cover or to harm passing enemies.</XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.2.description>
+  <!-- EN: frozen flood -->
+  <XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.2.verb.label>frozen flood</XFMParmor_MechanicalArmorCore_Aqua.comps.CompSkills.skills.2.verb.label>
+  <!-- EN: compound lance -->
+  <XFMParmor_Weapon_Aqua.label>compound lance</XFMParmor_Weapon_Aqua.label>
+  <!-- EN: Under speed mode, the compound lance can rapidly fire powerful charge shots. -->
+  <XFMParmor_Weapon_Aqua.description>Under speed mode, the compound lance can rapidly fire powerful charge shots.</XFMParmor_Weapon_Aqua.description>
+  <!-- EN: stock -->
+  <XFMParmor_Weapon_Aqua.tools.stock.label>stock</XFMParmor_Weapon_Aqua.tools.stock.label>
+  <!-- EN: compound lance -->
+  <XFMParmor_Weapon_Aqua.verbs.Verb_Shoot.label>compound lance</XFMParmor_Weapon_Aqua.verbs.Verb_Shoot.label>
+  <!-- EN: charge shot -->
+  <XFMParmor_Weapon_Aqua_Bullet.label>charge shot</XFMParmor_Weapon_Aqua_Bullet.label>
+  <!-- EN: compound lance -->
+  <XFMParmor_Weapon_AquaB.label>compound lance</XFMParmor_Weapon_AquaB.label>
+  <!-- EN: Under precision mode, the compound lance shoots laser aiming at enemy's brain with pinpoint accuracy. The laser also inflicts frozen effect which enables more wounds to be caused by attacks, and spreads to nearby enemy upon death. -->
+  <XFMParmor_Weapon_AquaB.description>Under precision mode, the compound lance shoots laser aiming at enemy's brain with pinpoint accuracy. The laser also inflicts frozen effect which enables more wounds to be caused by attacks, and spreads to nearby enemy upon death.</XFMParmor_Weapon_AquaB.description>
+  <!-- EN: stock -->
+  <XFMParmor_Weapon_AquaB.tools.stock.label>stock</XFMParmor_Weapon_AquaB.tools.stock.label>
+  <!-- EN: compound lance -->
+  <XFMParmor_Weapon_AquaB.verbs.Verb_Laser.label>compound lance</XFMParmor_Weapon_AquaB.verbs.Verb_Laser.label>
+  <!-- EN: blood ice -->
+  <XFMParmor_Weapon_BloodIce.label>blood ice</XFMParmor_Weapon_BloodIce.label>
+  <!-- EN: frost ray -->
+  <XFMParmor_Weapon_Frost_Bullet.label>frost ray</XFMParmor_Weapon_Frost_Bullet.label>
+</LanguageData>

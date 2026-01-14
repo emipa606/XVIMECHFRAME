@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: inserting battery into TargetA. -->
+  <XFMParmor_Job_FillChargingStation.reportString>inserting battery into TargetA.</XFMParmor_Job_FillChargingStation.reportString>
+  <!-- EN: entering mechframe -->
+  <XFMParmor_Job_GetIntoMParmor.reportString>entering mechframe</XFMParmor_Job_GetIntoMParmor.reportString>
+  <!-- EN: returning to TargetA. -->
+  <XFMParmor_Job_ReturnToCarrier.reportString>returning to TargetA.</XFMParmor_Job_ReturnToCarrier.reportString>
+  <!-- EN: returning to bay -->
+  <XFMParmor_Job_ReturnToPit.reportString>returning to bay</XFMParmor_Job_ReturnToPit.reportString>
+  <!-- EN: retrieving battery from TargetA. -->
+  <XFMParmor_Job_TakeBattery.reportString>retrieving battery from TargetA.</XFMParmor_Job_TakeBattery.reportString>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: mechframe core: falcon -->
+  <XFMParmor_MechanicalArmorCore_Red.label>mechframe core: falcon</XFMParmor_MechanicalArmorCore_Red.label>
+  <!-- EN: The core of mechframe falcon. -->
+  <XFMParmor_MechanicalArmorCore_Red.description>The core of mechframe falcon.</XFMParmor_MechanicalArmorCore_Red.description>
+  <!-- EN: >When standing still and not currently melee attacking, search for enemies within 20 tiles radius.\n>If avaliable target is found, automatically move in and attack.\n>When melee attacking or approaching target, use charged assault when possible.\n>When harmed by ranged attack, automatically use active reflection if avaliable. -->
+  <XFMParmor_MechanicalArmorCore_Red.comps.CompMechanicalArmor.AiText>>When standing still and not currently melee attacking, search for enemies within 20 tiles radius.
+>If avaliable target is found, automatically move in and attack.
+>When melee attacking or approaching target, use charged assault when possible.
+>When harmed by ranged attack, automatically use active reflection if avaliable.</XFMParmor_MechanicalArmorCore_Red.comps.CompMechanicalArmor.AiText>
+  <!-- EN: Generates a force field around the mechframe that reflects bullets back to their shooters for the duration of activation. -->
+  <XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.0.description>Generates a force field around the mechframe that reflects bullets back to their shooters for the duration of activation.</XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.0.description>
+  <!-- EN: active reflection -->
+  <XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.0.verb.label>active reflection</XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.0.verb.label>
+  <!-- EN: Zips betweed adjacent enemies and attack them with lightning speed slashes. The cool down decreases as the blades' attack speed increases. -->
+  <XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.1.description>Zips betweed adjacent enemies and attack them with lightning speed slashes. The cool down decreases as the blades' attack speed increases.</XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.1.description>
+  <!-- EN: charged assault -->
+  <XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.1.verb.label>charged assault</XFMParmor_MechanicalArmorCore_Red.comps.CompSkills.skills.1.verb.label>
+  <!-- EN: flying -->
+  <XFMParmor_PawnJumper_RedSkill.label>flying</XFMParmor_PawnJumper_RedSkill.label>
+  <!-- EN: sweeper -->
+  <XFMParmor_PawnSweeper.label>sweeper</XFMParmor_PawnSweeper.label>
+  <!-- EN: plasma dual blade -->
+  <XFMParmor_Weapon_Red.label>plasma dual blade</XFMParmor_Weapon_Red.label>
+  <!-- EN: Gigantic swords intended only for mechframes. The dual blades gain power from attacks, speeding up their attack speed. -->
+  <XFMParmor_Weapon_Red.description>Gigantic swords intended only for mechframes. The dual blades gain power from attacks, speeding up their attack speed.</XFMParmor_Weapon_Red.description>
+  <!-- EN: 刃 -->
+  <XFMParmor_Weapon_Red.tools.0.label>刃</XFMParmor_Weapon_Red.tools.0.label>
+</LanguageData>

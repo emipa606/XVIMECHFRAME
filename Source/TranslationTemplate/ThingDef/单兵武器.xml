@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: anti-mechframe rifle -->
+  <XFMParmor_AntiMaterielRifle.label>anti-mechframe rifle</XFMParmor_AntiMaterielRifle.label>
+  <!-- EN: Two-rounder high caliber sniper rifle with specialized bullet that deals triple damage to mechframe armor. -->
+  <XFMParmor_AntiMaterielRifle.description>Two-rounder high caliber sniper rifle with specialized bullet that deals triple damage to mechframe armor.</XFMParmor_AntiMaterielRifle.description>
+  <!-- EN: stock -->
+  <XFMParmor_AntiMaterielRifle.tools.stock.label>stock</XFMParmor_AntiMaterielRifle.tools.stock.label>
+  <!-- EN: anti-mechframe rifle -->
+  <XFMParmor_AntiMaterielRifle.verbs.Verb_Shoot.label>anti-mechframe rifle</XFMParmor_AntiMaterielRifle.verbs.Verb_Shoot.label>
+  <!-- EN: anti-MF round -->
+  <XFMParmor_AntiMaterielRifle_Bullet.label>anti-MF round</XFMParmor_AntiMaterielRifle_Bullet.label>
+  <!-- EN: repulsor shield -->
+  <XFMParmor_AntiMParmor_Shield.label>repulsor shield</XFMParmor_AntiMParmor_Shield.label>
+  <!-- EN: A shield field that's effective against projectiles but does not stop blast waves. -->
+  <XFMParmor_AntiMParmor_Shield.description>A shield field that's effective against projectiles but does not stop blast waves.</XFMParmor_AntiMParmor_Shield.description>
+  <!-- EN: repulsor field generator -->
+  <XFMParmor_AntiMParmor_ShieldSpawner.label>repulsor field generator</XFMParmor_AntiMParmor_ShieldSpawner.label>
+  <!-- EN: A disposable generator having an effective radius of 9 tiles. Capable of stopping projectiles but not blast waves. -->
+  <XFMParmor_AntiMParmor_ShieldSpawner.description>A disposable generator having an effective radius of 9 tiles. Capable of stopping projectiles but not blast waves.</XFMParmor_AntiMParmor_ShieldSpawner.description>
+  <!-- EN: charge -->
+  <XFMParmor_AntiMParmor_ShieldSpawner.comps.CompApparelReloadable.chargeNoun>charge</XFMParmor_AntiMParmor_ShieldSpawner.comps.CompApparelReloadable.chargeNoun>
+  <!-- EN: on cooldown -->
+  <XFMParmor_AntiMParmor_ShieldSpawner.comps.CompApparelReloadable.cooldownGerund>on cooldown</XFMParmor_AntiMParmor_ShieldSpawner.comps.CompApparelReloadable.cooldownGerund>
+  <!-- EN: repulsor shield -->
+  <XFMParmor_AntiMParmor_ShieldSpawner.verbs.repulsor_shield.label>repulsor shield</XFMParmor_AntiMParmor_ShieldSpawner.verbs.repulsor_shield.label>
+  <!-- EN: shield -->
+  <XFMParmor_DriverShield.label>shield</XFMParmor_DriverShield.label>
+  <!-- EN: A shield. -->
+  <XFMParmor_DriverShield.description>A shield.</XFMParmor_DriverShield.description>
+  <!-- EN: pulse rifle -->
+  <XFMParmor_PulseRifle.label>pulse rifle</XFMParmor_PulseRifle.label>
+  <!-- EN: The standard issue weapon of mech crushers, fires a charge grenade after a salvo of pulser bolts. -->
+  <XFMParmor_PulseRifle.description>The standard issue weapon of mech crushers, fires a charge grenade after a salvo of pulser bolts.</XFMParmor_PulseRifle.description>
+  <!-- EN: stock -->
+  <XFMParmor_PulseRifle.tools.stock.label>stock</XFMParmor_PulseRifle.tools.stock.label>
+  <!-- EN: pulse rifle -->
+  <XFMParmor_PulseRifle.verbs.Verb_Shoot_PulseRifle.label>pulse rifle</XFMParmor_PulseRifle.verbs.Verb_Shoot_PulseRifle.label>
+  <!-- EN: pulser bolts -->
+  <XFMParmor_PulseRifle_Bullet.label>pulser bolts</XFMParmor_PulseRifle_Bullet.label>
+  <!-- EN: charged grenade -->
+  <XFMParmor_PulseRifle_Grenade.label>charged grenade</XFMParmor_PulseRifle_Grenade.label>
+  <!-- EN: AMGR launcher -->
+  <XFMParmor_RocketLauncher.label>AMGR launcher</XFMParmor_RocketLauncher.label>
+  <!-- EN: Disposable rocket launcher with a capacity of four. -->
+  <XFMParmor_RocketLauncher.description>Disposable rocket launcher with a capacity of four.</XFMParmor_RocketLauncher.description>
+  <!-- EN: stock -->
+  <XFMParmor_RocketLauncher.tools.stock.label>stock</XFMParmor_RocketLauncher.tools.stock.label>
+  <!-- EN: AMGR launcher -->
+  <XFMParmor_RocketLauncher.verbs.Verb_ShootOneUse.label>AMGR launcher</XFMParmor_RocketLauncher.verbs.Verb_ShootOneUse.label>
+  <!-- EN: AMGR rocket -->
+  <XFMParmor_RocketLauncher_Bullet.label>AMGR rocket</XFMParmor_RocketLauncher_Bullet.label>
+  <!-- EN: thermo blade -->
+  <XFMParmor_ThermoBlade.label>thermo blade</XFMParmor_ThermoBlade.label>
+  <!-- EN: Energetic sword with superheated edges, ignites target and bypasses mechframe shield. -->
+  <XFMParmor_ThermoBlade.description>Energetic sword with superheated edges, ignites target and bypasses mechframe shield.</XFMParmor_ThermoBlade.description>
+  <!-- EN: edge -->
+  <XFMParmor_ThermoBlade.tools.edge.label>edge</XFMParmor_ThermoBlade.tools.edge.label>
+</LanguageData>

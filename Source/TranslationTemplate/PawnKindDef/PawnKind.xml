@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: AMF combatant -->
+  <XFMParmor_AntiMPArmorPawn.label>AMF combatant</XFMParmor_AntiMPArmorPawn.label>
+  <XFMParmor_AntiMPArmorPawn.labelPlural />
+  <!-- EN: AFM ranged combatant -->
+  <XFMParmor_AntiMPArmorPawn_Long.label>AFM ranged combatant</XFMParmor_AntiMPArmorPawn_Long.label>
+  <XFMParmor_AntiMPArmorPawn_Long.labelPlural />
+  <!-- EN: AMF melee combatant -->
+  <XFMParmor_AntiMPArmorPawn_Melee.label>AMF melee combatant</XFMParmor_AntiMPArmorPawn_Melee.label>
+  <XFMParmor_AntiMPArmorPawn_Melee.labelPlural />
+  <!-- EN: AMF grenadier -->
+  <XFMParmor_AntiMPArmorPawn_Rocket.label>AMF grenadier</XFMParmor_AntiMPArmorPawn_Rocket.label>
+  <XFMParmor_AntiMPArmorPawn_Rocket.labelPlural />
+  <!-- EN: AMF shielder -->
+  <XFMParmor_AntiMPArmorPawn_Shield.label>AMF shielder</XFMParmor_AntiMPArmorPawn_Shield.label>
+  <XFMParmor_AntiMPArmorPawn_Shield.labelPlural />
+</LanguageData>

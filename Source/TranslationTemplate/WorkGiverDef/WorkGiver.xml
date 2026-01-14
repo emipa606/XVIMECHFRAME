@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fill charging station -->
+  <XFMParmor_FillChargingStation.label>fill charging station</XFMParmor_FillChargingStation.label>
+  <!-- EN: filling -->
+  <XFMParmor_FillChargingStation.gerund>filling</XFMParmor_FillChargingStation.gerund>
+  <!-- EN: fill -->
+  <XFMParmor_FillChargingStation.verb>fill</XFMParmor_FillChargingStation.verb>
+  <!-- EN: operate fabrication bays -->
+  <XFMParmor_WorkInFabricationPit.label>operate fabrication bays</XFMParmor_WorkInFabricationPit.label>
+  <!-- EN: operating -->
+  <XFMParmor_WorkInFabricationPit.gerund>operating</XFMParmor_WorkInFabricationPit.gerund>
+  <!-- EN: operate -->
+  <XFMParmor_WorkInFabricationPit.verb>operate</XFMParmor_WorkInFabricationPit.verb>
+  <!-- EN: maintain mechframe -->
+  <XFMParmor_WorkInMParmor.label>maintain mechframe</XFMParmor_WorkInMParmor.label>
+  <!-- EN: maintaining -->
+  <XFMParmor_WorkInMParmor.gerund>maintaining</XFMParmor_WorkInMParmor.gerund>
+  <!-- EN: maintain -->
+  <XFMParmor_WorkInMParmor.verb>maintain</XFMParmor_WorkInMParmor.verb>
+</LanguageData>

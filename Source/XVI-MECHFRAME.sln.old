@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{5b1802aa-4b0a-477e-834f-795d7310ed1c}") = "MechanicalPoweredArmorVanilla", "MechanicalPoweredArmorVanilla\MechanicalPoweredArmorVanilla.csproj", "{347de574-81f9-4daf-afb0-d44968b7a8c9]}"
+EndProject
+Project("{a1cd6857-3bf6-44d2-a175-f335bcf0dc31}") = "Tower_WeaponDrawFrameVanilla", "Tower_WeaponDrawFrameVanilla\Tower_WeaponDrawFrameVanilla.csproj", "{997cb1f3-4505-4b01-bc6f-be366b42aa55]}"
+EndProject
+Project("{5dcb937d-ae57-4217-92ed-5defd47db3bd}") = "MechanicalPoweredArmorCE", "MechanicalPoweredArmorCE\MechanicalPoweredArmorCE.csproj", "{f6dd528c-3607-4911-a936-8e7630845727]}"
+EndProject
+Project("{2f12a27f-d984-4781-bb5f-34ef94f1d110}") = "Tower_WeaponDrawFrameCE", "Tower_WeaponDrawFrameCE\Tower_WeaponDrawFrameCE.csproj", "{fbfbcb58-bf27-4567-909c-54c612ac41aa]}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{347de574-81f9-4daf-afb0-d44968b7a8c9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347de574-81f9-4daf-afb0-d44968b7a8c9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347de574-81f9-4daf-afb0-d44968b7a8c9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347de574-81f9-4daf-afb0-d44968b7a8c9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {fd7d7105-ac2b-4a2d-8c23-07f297500c1e}
+	EndGlobalSection
+EndGlobal

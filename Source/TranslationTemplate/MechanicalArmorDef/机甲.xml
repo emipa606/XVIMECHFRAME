@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: owl -->
+  <MechanicalArmor_Aqua.label>owl</MechanicalArmor_Aqua.label>
+  <!-- EN: placeholder. -->
+  <MechanicalArmor_Aqua.description>placeholder.</MechanicalArmor_Aqua.description>
+  <!-- EN: crow -->
+  <MechanicalArmor_Black.label>crow</MechanicalArmor_Black.label>
+  <!-- EN: placeholder. -->
+  <MechanicalArmor_Black.description>placeholder.</MechanicalArmor_Black.description>
+  <!-- EN: sparrow -->
+  <MechanicalArmor_Carrier.label>sparrow</MechanicalArmor_Carrier.label>
+  <!-- EN: placeholder. -->
+  <MechanicalArmor_Carrier.description>placeholder.</MechanicalArmor_Carrier.description>
+  <!-- EN: falcon -->
+  <MechanicalArmor_Red.label>falcon</MechanicalArmor_Red.label>
+  <!-- EN: placeholder. -->
+  <MechanicalArmor_Red.description>placeholder.</MechanicalArmor_Red.description>
+</LanguageData>
