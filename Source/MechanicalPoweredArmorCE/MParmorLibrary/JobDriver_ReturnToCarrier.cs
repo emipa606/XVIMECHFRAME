@@ -25,8 +25,8 @@ public class JobDriver_ReturnToCarrier : JobDriver
                     return;
                 }
 
-                (drone.origin as MParmorCore_Carrier)?.RecycleDrone(drone.shieldClass.Shield /
-                                                                    drone.shieldClass.ShieldMax);
+                (drone.origin as MParmorCore_Carrier)?.RecycleDrone(drone.ShieldClass.Shield /
+                                                                    drone.ShieldClass.ShieldMax);
                 drone.spawnTick = -1500;
             },
             defaultCompleteMode = ToilCompleteMode.Instant

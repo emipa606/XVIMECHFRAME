@@ -15,7 +15,7 @@ public class Verb_SpawnShield_Lord : Verb
     public void UseOnce()
     {
         var shieldObstacle = ThingMaker.MakeThing(ThingDefOf.XFMParmor_AntiMParmor_Shield) as ShieldObstacle;
-        shieldObstacle?.shieldClass.ShieldMax = 450f;
+        shieldObstacle?.ShieldClass.ShieldMax = 450f;
         shieldObstacle?.SetFaction(CasterPawn.Faction);
         GenSpawn.Spawn(shieldObstacle, Caster.Position, CasterPawn.Map);
         if (CasterPawn?.GetLord()?.CurLordToil is LordToil_AntiMParmorFight lordToil_AntiMParmorFight)

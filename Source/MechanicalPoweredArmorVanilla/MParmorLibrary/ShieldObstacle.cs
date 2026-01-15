@@ -8,12 +8,22 @@ public class ShieldObstacle : Building
 {
     public SkillObject holder;
 
-    public Health_Shiled shieldClass = new Health_Shiled();
+    private Health_Shiled shieldClass;
     public int superShieldTime = 0;
 
-    public float ShieldMax => shieldClass.ShieldMax;
+    public float ShieldMax => ShieldClass.ShieldMax;
 
-    public float Shield => shieldClass.Shield;
+    private float Shield => ShieldClass.Shield;
+
+    public Health_Shiled ShieldClass
+    {
+        get
+        {
+            shieldClass ??= new Health_Shiled();
+            return shieldClass;
+        }
+        set => shieldClass = value;
+    }
 
     protected override void Tick()
     {
@@ -30,7 +40,7 @@ public class ShieldObstacle : Building
 
     public virtual void Hurt_Shield(DamageInfo dinfo)
     {
-        shieldClass.Hurt_Shield(dinfo);
+        ShieldClass.Hurt_Shield(dinfo);
     }
 
     public virtual void SheildBreak()
@@ -50,7 +60,7 @@ public class ShieldObstacle : Building
         var text = holder == null || holder.parent.Wearer == null
             ? (string)"XFMParmor_Shield".Translate()
             : (string)("XFMParmor_From".Translate() + holder.parent.Wearer.LabelCap);
-        foreach (var gizmo2 in shieldClass.GetGizmos(text))
+        foreach (var gizmo2 in ShieldClass.GetGizmos(text))
         {
             yield return gizmo2;
         }

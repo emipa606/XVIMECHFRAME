@@ -19,9 +19,19 @@ public class Drone : Pawn, IIntercept
 
     public bool searthNewTarget = true;
 
-    public Health_Shiled shieldClass;
+    private Health_Shiled shieldClass;
 
     public int spawnTick;
+
+    public Health_Shiled ShieldClass
+    {
+        get
+        {
+            shieldClass ??= new Health_Shiled();
+            return shieldClass;
+        }
+        set => shieldClass = value;
+    }
 
     public bool CanIntercept(Projectile projectile, IntVec3 c)
     {
@@ -35,7 +45,7 @@ public class Drone : Pawn, IIntercept
             projectile.ArmorPenetration, projectile.ExactRotation.eulerAngles.y, projectile.Launcher, null,
             projectile.EquipmentDef, DamageInfo.SourceCategory.ThingOrUnknown, projectile.intendedTarget.Thing);
         ShowImpectFleck(c.ToVector3Shifted(), dinfo.Amount);
-        shieldClass.Hurt_Shield(dinfo);
+        ShieldClass.Hurt_Shield(dinfo);
         projectile.GetType().GetMethod("Impact", BindingFlags.Instance | BindingFlags.NonPublic)
             ?.Invoke(projectile, [null, false]);
         if (projectile.Spawned)
@@ -64,7 +74,7 @@ public class Drone : Pawn, IIntercept
     {
         var drone = MakeNewDrone(origin);
         drone.forceTarget = target;
-        drone.shieldClass.ShieldMax = 450f;
+        drone.ShieldClass.ShieldMax = 450f;
         GenSpawn.Spawn(drone, origin.PositionFixed, origin.ThingFixed.Map);
         Intercepts.AddNewInstance(drone);
         foreach (var item in from x in drone.health.hediffSet.GetNotMissingParts()
@@ -80,7 +90,7 @@ public class Drone : Pawn, IIntercept
     {
         var drone = MakeNewDrone(origin);
         drone.isAttactMode = true;
-        drone.shieldClass.ShieldMax = 60f;
+        drone.ShieldClass.ShieldMax = 60f;
         GenSpawn.Spawn(drone, origin.PositionFixed, origin.ThingFixed.Map);
         if (target.HasThing)
         {
@@ -96,7 +106,7 @@ public class Drone : Pawn, IIntercept
     public override void PreApplyDamage(ref DamageInfo dinfo, out bool absorbed)
     {
         absorbed = true;
-        shieldClass.Hurt_Shield(dinfo);
+        ShieldClass.Hurt_Shield(dinfo);
     }
 
     public override void DeSpawn(DestroyMode mode = DestroyMode.Vanish)
@@ -129,8 +139,8 @@ public class Drone : Pawn, IIntercept
             }
         }
 
-        shieldClass.Tick();
-        if (shieldClass.Shield <= 0f)
+        ShieldClass.Tick();
+        if (ShieldClass.Shield <= 0f)
         {
             Destroy();
         }
@@ -179,7 +189,7 @@ public class Drone : Pawn, IIntercept
 
     public override IEnumerable<Gizmo> GetGizmos()
     {
-        foreach (var gizmo in shieldClass.GetGizmos("Shield", GetBattery()))
+        foreach (var gizmo in ShieldClass.GetGizmos("Shield", GetBattery()))
         {
             yield return gizmo;
         }

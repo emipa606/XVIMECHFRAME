@@ -68,7 +68,7 @@ public class Verb_SpawnShield : Verb
         var shieldObstacle2 = ThingMaker.MakeThing(ThingDefOf.XFMParmor_Black_Shield) as ShieldObstacle;
         if (skillObject.skill.skillValueA != -1f)
         {
-            shieldObstacle2?.shieldClass.ShieldMax = skillObject.skill.skillValueA;
+            shieldObstacle2?.ShieldClass.ShieldMax = skillObject.skill.skillValueA;
         }
 
         shieldObstacle2?.holder = skillObject;

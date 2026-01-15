@@ -54,6 +54,9 @@
       <lifeExpectancy>2500</lifeExpectancy>
       <bloodDef>Filth_MachineBits</bloodDef>
       <intelligence>ToolUser</intelligence>
+      <trainability>None</trainability>
+      <hideTrainingTab>true</hideTrainingTab>
+      <canFlyInVacuum>true</canFlyInVacuum>
       <thinkTreeMain>XFMParmor_Drone_Carrier_ThinkTree</thinkTreeMain>
       <baseBodySize>0.5</baseBodySize>
       <lifeStageAges>
