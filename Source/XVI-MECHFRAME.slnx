@@ -6,7 +6,7 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="MechanicalPoweredArmorCE/MechanicalPoweredArmorCE.csproj" Type="5dcb937d-ae57-4217-92ed-5defd47db3bd" />
-  <Project Path="MechanicalPoweredArmorVanilla/MechanicalPoweredArmorVanilla.csproj" Type="5b1802aa-4b0a-477e-834f-795d7310ed1c" />
+  <Project Path="MechanicalPoweredArmorVanilla/MechanicalPoweredArmorVanilla.csproj" />
   <Project Path="Tower_WeaponDrawFrameCE/Tower_WeaponDrawFrameCE.csproj" Type="2f12a27f-d984-4781-bb5f-34ef94f1d110" />
-  <Project Path="Tower_WeaponDrawFrameVanilla/Tower_WeaponDrawFrameVanilla.csproj" Type="a1cd6857-3bf6-44d2-a175-f335bcf0dc31" />
+  <Project Path="Tower_WeaponDrawFrameVanilla/Tower_WeaponDrawFrameVanilla.csproj" />
 </Solution>

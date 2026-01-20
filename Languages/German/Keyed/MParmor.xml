@@ -27,4 +27,5 @@
   <XFMParmor_Drone_GizmoDefendA>Folgt/geht zu</XFMParmor_Drone_GizmoDefendA>
   <XFMParmor_Drone_GizmoDefendB>Wählen Sie ein Ziel und folgen Sie / Wählen Sie einen Ort und bewegen Sie sich dorthin</XFMParmor_Drone_GizmoDefendB>
   <XFMParmor_Verb_DispatchDrone_failReason>keine Drohnen verfügbar</XFMParmor_Verb_DispatchDrone_failReason>
+  <XFMParmor_Building_FabricationPit_Finished>Mechframe Bau beendet: {0}</XFMParmor_Building_FabricationPit_Finished>
 </LanguageData>

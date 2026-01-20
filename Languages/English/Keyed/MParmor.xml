@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+  <XFMParmor_Building_FabricationPit_Finished>Mechframe construction finished: {0}</XFMParmor_Building_FabricationPit_Finished>
   <XFMParmor_defNameBuildingFixed>[offline]</XFMParmor_defNameBuildingFixed>
   <XFMParmor_MParmorCore_PowerTracker>A mechframe has run out of battery charge.</XFMParmor_MParmorCore_PowerTracker>
   <XFMParmor_MParmorCore_StateControlA>Mental stablizer activated.</XFMParmor_MParmorCore_StateControlA>

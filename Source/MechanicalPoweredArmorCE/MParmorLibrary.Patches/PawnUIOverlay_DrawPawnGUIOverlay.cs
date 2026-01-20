@@ -7,10 +7,9 @@ namespace MParmorLibrary.Patches;
 [HarmonyPatch(typeof(PawnUIOverlay), nameof(PawnUIOverlay.DrawPawnGUIOverlay))]
 public static class PawnUIOverlay_DrawPawnGUIOverlay
 {
-    private static bool Prefix()
+    private static void Prefix()
     {
         AcquisitionManagement.instanceBoolForDrawPawnGUIOverlay = true;
-        return true;
     }
 
     private static void Postfix()

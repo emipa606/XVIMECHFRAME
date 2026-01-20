@@ -8,10 +8,9 @@ namespace MParmorLibrary.Patches;
     typeof(LocalTargetInfo))]
 public static class ShotReport_HitReportFor
 {
-    private static bool Prefix()
+    private static void Prefix()
     {
         AcquisitionManagement.instanceBoolForBodySize = true;
-        return true;
     }
 
     private static void Postfix()

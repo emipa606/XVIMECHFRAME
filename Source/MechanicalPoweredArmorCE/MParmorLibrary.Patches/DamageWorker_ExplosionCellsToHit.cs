@@ -8,15 +8,14 @@ namespace MParmorLibrary.Patches;
     typeof(IntVec3?), typeof(IntVec3?), typeof(FloatRange?))]
 public static class DamageWorker_ExplosionCellsToHit
 {
-    private static bool Prefix(DamageWorker __instance)
+    private static void Prefix(DamageWorker __instance)
     {
         if (DamageTypes.CrossShieldDamages.Contains(__instance.def))
         {
-            return true;
+            return;
         }
 
         ThingDefOf.XFMParmor_Black_Shield.fillPercent = 1f;
-        return true;
     }
 
     private static void Postfix()

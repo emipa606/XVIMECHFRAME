@@ -64,7 +64,7 @@ public class Building_ChargingStation : Building, IChargingEquipment
         {
             yield return new Command_Action
             {
-                defaultLabel = "充电10000Wh",
+                defaultLabel = "Charge 10000Wh",
                 action = delegate { batteryLevel += 1000000; }
             };
         }

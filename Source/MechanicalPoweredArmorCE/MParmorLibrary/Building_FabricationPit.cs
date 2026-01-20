@@ -89,14 +89,9 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
     public override string GetInspectString()
     {
         var stringBuilder = new StringBuilder();
-        if (CentralSystem != null)
-        {
-            stringBuilder.AppendLine("XFMParmor_Building_FabricationPit_ConnectedA".Translate());
-        }
-        else
-        {
-            stringBuilder.AppendLine("XFMParmor_Building_FabricationPit_ConnectedB".Translate());
-        }
+        stringBuilder.AppendLine(CentralSystem != null
+            ? "XFMParmor_Building_FabricationPit_ConnectedA".Translate()
+            : "XFMParmor_Building_FabricationPit_ConnectedB".Translate());
 
         switch (State)
         {
@@ -151,8 +146,10 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
 
     public override void FinishBill(RecipeDef recipeDef, Pawn worker, List<Thing> ingredients)
     {
-        if (!MechanicalArmorDef.recipes.TryGetValue(recipeDef, out var armor))
+        var armor = MechanicalArmorDef.recipes.FirstOrDefault(x => x.Key.defName == recipeDef.defName).Value;
+        if (armor == null)
         {
+            Log.Error($"Failed to find armor for recipe {recipeDef.defName}");
             return;
         }
 
@@ -222,8 +219,14 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
 
         var mParmorBuilding = ThingMaker.MakeThing(productionMParmor.building) as MParmorBuilding;
         GenPlace.TryPlaceThing(mParmorBuilding, Position, Map, ThingPlaceMode.Direct, null, null, default(Rot4));
-        mParmorBuilding?.HealthTracker.Machine = productionMParmor.machine;
-        mParmorBuilding?.SetFactionDirect(Faction);
+        if (mParmorBuilding != null)
+        {
+            mParmorBuilding.HealthTracker.Machine = productionMParmor.machine;
+            mParmorBuilding.SetFactionDirect(Faction);
+            Messages.Message("XFMParmor_Building_FabricationPit_Finished".Translate(mParmorBuilding.def.LabelCap),
+                mParmorBuilding, MessageTypeDefOf.PositiveEvent);
+        }
+
         recipeDef = null;
         productionMParmor = null;
         UpdateState();

@@ -1,12 +1,10 @@
 using System.Reflection;
 using HarmonyLib;
-using JetBrains.Annotations;
 using RimWorld;
 using Verse;
 
 namespace MParmorLibrary.Patches;
 
-[UsedImplicitly]
 [StaticConstructorOnStartup]
 public static class PatchMain
 {

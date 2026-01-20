@@ -7,10 +7,9 @@ namespace MParmorLibrary.Patches;
 [HarmonyPatch(typeof(Projectile), "Tick")]
 public static class Projectile_Tick
 {
-    private static bool Prefix()
+    private static void Prefix()
     {
         AcquisitionManagement.instanceBoolForBodySize = true;
-        return true;
     }
 
     private static void Postfix()

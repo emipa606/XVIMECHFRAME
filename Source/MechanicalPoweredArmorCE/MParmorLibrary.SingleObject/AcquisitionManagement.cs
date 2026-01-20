@@ -54,7 +54,7 @@ public class AcquisitionManagement : IExposable
 
     public void Tick()
     {
-        if (DefDatabase<RecipeDef>.GetNamed("XFMParmor_Fabricate_MechanicalArmor_Black") == null && !flag)
+        if (DefDatabase<RecipeDef>.GetNamed("XFMParmor_Fabricate_MechanicalArmor_Black", false) == null && !flag)
         {
             DefGenerator_NoStaticConstructor.Invoke();
             flag = true;

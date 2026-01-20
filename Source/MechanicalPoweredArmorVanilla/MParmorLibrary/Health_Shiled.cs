@@ -10,6 +10,12 @@ public class Health_Shiled : IExposable
     private float shieldInt = -1f;
     private float shieldMax = 100f;
 
+    // ReSharper disable once EmptyConstructor
+    // Explicit parameterless constructor required for Scribe serialization
+    public Health_Shiled()
+    {
+    }
+
     public float ShieldMax
     {
         get => shieldMax;

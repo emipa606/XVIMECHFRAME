@@ -11,7 +11,6 @@ namespace MParmorLibrary.Patches;
     typeof(Dictionary<string, string>), typeof(GameFont), typeof(bool), typeof(bool))]
 public static class GenMapUI_DrawPawnLabel
 {
-    [HarmonyPostfix]
     private static void Postfix(Pawn pawn, Vector2 pos)
     {
         if (pawn.apparel == null || pawn.apparel.WornApparel == null)

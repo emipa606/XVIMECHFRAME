@@ -223,6 +223,8 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
         {
             mParmorBuilding.HealthTracker.Machine = productionMParmor.machine;
             mParmorBuilding.SetFactionDirect(Faction);
+            Messages.Message("XFMParmor_Building_FabricationPit_Finished".Translate(mParmorBuilding.def.LabelCap),
+                mParmorBuilding, MessageTypeDefOf.PositiveEvent);
         }
 
         recipeDef = null;
