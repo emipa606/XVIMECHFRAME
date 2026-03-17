@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using Verse;
 
 namespace MParmorLibrary;
@@ -10,10 +11,20 @@ public class Health_Shiled : IExposable
     private float shieldInt = -1f;
     private float shieldMax = 100f;
 
-    // ReSharper disable once EmptyConstructor
-    // Explicit parameterless constructor required for Scribe serialization
+    [UsedImplicitly]
     public Health_Shiled()
     {
+    }
+
+    public Health_Shiled(float shieldMax)
+    {
+        this.shieldMax = shieldMax;
+    }
+
+    public Health_Shiled(float shield, float shieldMax)
+    {
+        shieldInt = shield;
+        this.shieldMax = shieldMax;
     }
 
     public float ShieldMax

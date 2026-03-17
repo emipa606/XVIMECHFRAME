@@ -27,33 +27,36 @@ public class Verb_Chain : Verb
 
     protected virtual void Chain(Thing origin, List<Thing> primedTargets)
     {
-        ThingWithFloat thingWithFloat = null;
-        foreach (var primedTarget in primedTargets)
+        while (true)
         {
-            var distance = ToolsLibrary.GetDistance(origin.Position, primedTarget.Position);
-            if (!(distance <= EffectiveRange * EffectiveRange) ||
-                !GenSight.LineOfSight(origin.Position, primedTarget.Position, Caster.Map))
+            ThingWithFloat thingWithFloat = null;
+            foreach (var primedTarget in primedTargets)
             {
-                continue;
+                var distance = ToolsLibrary.GetDistance(origin.Position, primedTarget.Position);
+                if (!(distance <= EffectiveRange * EffectiveRange) ||
+                    !GenSight.LineOfSight(origin.Position, primedTarget.Position, Caster.Map))
+                {
+                    continue;
+                }
+
+                if (thingWithFloat == null)
+                {
+                    thingWithFloat = new ThingWithFloat(primedTarget, distance);
+                }
+                else if (thingWithFloat.floatValue > distance)
+                {
+                    thingWithFloat = new ThingWithFloat(primedTarget, distance);
+                }
             }
 
             if (thingWithFloat == null)
             {
-                thingWithFloat = new ThingWithFloat(primedTarget, distance);
+                return;
             }
-            else if (thingWithFloat.floatValue > distance)
-            {
-                thingWithFloat = new ThingWithFloat(primedTarget, distance);
-            }
-        }
 
-        if (thingWithFloat == null)
-        {
-            return;
+            targetsChain.Add(thingWithFloat.thing);
+            primedTargets.Remove(thingWithFloat.thing);
+            origin = thingWithFloat.thing;
         }
-
-        targetsChain.Add(thingWithFloat.thing);
-        primedTargets.Remove(thingWithFloat.thing);
-        Chain(thingWithFloat.thing, primedTargets);
     }
 }

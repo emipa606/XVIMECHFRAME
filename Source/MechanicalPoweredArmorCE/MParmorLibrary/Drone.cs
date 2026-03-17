@@ -294,7 +294,7 @@ public class Drone : Pawn, IIntercept
         Scribe_Values.Look(ref spawnTick, "fillPercent");
         Scribe_Values.Look(ref isAttactMode, "isAttactMode");
         Scribe_Values.Look(ref searthNewTarget, "searthNewTarget", true);
-        Scribe_Deep.Look(ref shieldClass, "shieldClass", new object());
+        Scribe_Deep.Look(ref shieldClass, "shieldClass");
         Scribe_TargetInfo.Look(ref forceTarget, "followTarget");
     }
 }

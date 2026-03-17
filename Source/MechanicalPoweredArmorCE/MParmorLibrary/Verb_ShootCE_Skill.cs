@@ -22,7 +22,7 @@ public class Verb_ShootCE_Skill : Verb_ShootCE
 
         var skillObject = DirectOwner as SkillObject;
         skillObject?.UsedOnce();
-        return TryCastShot();
+        return base.TryCastShot();
     }
 
     public override void OrderForceTarget(LocalTargetInfo target)
@@ -36,7 +36,7 @@ public class Verb_ShootCE_Skill : Verb_ShootCE
     {
         if (CanHitTarget(target) && verbProps.targetParams.CanTarget(target.ToTargetInfo(caster.Map)))
         {
-            OnGUI(target);
+            base.OnGUI(target);
         }
         else
         {

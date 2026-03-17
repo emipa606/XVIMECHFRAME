@@ -12,7 +12,7 @@ public class Bullet_BloodIce : BulletCE
         }
         else
         {
-            Tick();
+            base.Tick();
         }
     }
 }

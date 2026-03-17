@@ -9,4 +9,48 @@
   <Project Path="MechanicalPoweredArmorVanilla/MechanicalPoweredArmorVanilla.csproj" />
   <Project Path="Tower_WeaponDrawFrameCE/Tower_WeaponDrawFrameCE.csproj" Type="2f12a27f-d984-4781-bb5f-34ef94f1d110" />
   <Project Path="Tower_WeaponDrawFrameVanilla/Tower_WeaponDrawFrameVanilla.csproj" />
+  <Folder Name="/XML/1.6/Defs/">
+    <File Path="../1.6/Defs/DamageDef.xml" />
+    <File Path="../1.6/Defs/DataLibrary.xml" />
+    <File Path="../1.6/Defs/Drone.xml" />
+    <File Path="../1.6/Defs/Duty.xml" />
+    <File Path="../1.6/Defs/Effects.xml" />
+    <File Path="../1.6/Defs/Faction.xml" />
+    <File Path="../1.6/Defs/Flecks.xml" />
+    <File Path="../1.6/Defs/HediffDef.xml" />
+    <File Path="../1.6/Defs/Incidents.xml" />
+    <File Path="../1.6/Defs/JobDefAntiMParmor.xml" />
+    <File Path="../1.6/Defs/JobDefs.xml" />
+    <File Path="../1.6/Defs/ModuleDefs.xml" />
+    <File Path="../1.6/Defs/PawnKind.xml" />
+    <File Path="../1.6/Defs/RaidStrategyDef.xml" />
+    <File Path="../1.6/Defs/Researches.xml" />
+    <File Path="../1.6/Defs/SitePartDef.xml" />
+    <File Path="../1.6/Defs/SoundDef.xml" />
+    <File Path="../1.6/Defs/statue.xml" />
+    <File Path="../1.6/Defs/ThingDefMisc.xml" />
+    <File Path="../1.6/Defs/Unused.xml" />
+    <File Path="../1.6/Defs/WorkGiver.xml" />
+    <File Path="../1.6/Defs/初代型机甲.xml" />
+    <File Path="../1.6/Defs/单兵武器.xml" />
+    <File Path="../1.6/Defs/墙体.xml" />
+    <File Path="../1.6/Defs/建筑.xml" />
+    <File Path="../1.6/Defs/支援型机甲.xml" />
+    <File Path="../1.6/Defs/攻城型机甲.xml" />
+    <File Path="../1.6/Defs/机甲.xml" />
+    <File Path="../1.6/Defs/机甲武器.xml" />
+    <File Path="../1.6/Defs/机甲残骸.xml" />
+    <File Path="../1.6/Defs/材料.xml" />
+    <File Path="../1.6/Defs/清单.xml" />
+    <File Path="../1.6/Defs/能源相关.xml" />
+    <File Path="../1.6/Defs/装备.xml" />
+    <File Path="../1.6/Defs/输出型机甲.xml" />
+    <File Path="../1.6/Defs/近战型机甲.xml" />
+  </Folder>
+  <Folder Name="/XML/Patches/">
+    <File Path="../Patches/Stat_MoveSpeed.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
 </Solution>

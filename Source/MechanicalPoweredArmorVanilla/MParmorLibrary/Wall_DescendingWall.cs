@@ -101,16 +101,19 @@ public class Wall_DescendingWall : Building
 
     private void Connect(Wall_DescendingWall target)
     {
-        if (target is not { Spawned: true } || target.def != def || target.isSelectored)
+        while (true)
         {
-            return;
-        }
+            if (target is not { Spawned: true } || target.def != def || target.isSelectored)
+            {
+                return;
+            }
 
-        target.isSelectored = true;
-        Find.Selector.Select(target, false);
-        Connect((target.Position + new IntVec3(1, 0, 0)).GetFirstThing<Wall_DescendingWall>(Map));
-        Connect((target.Position + new IntVec3(-1, 0, 0)).GetFirstThing<Wall_DescendingWall>(Map));
-        Connect((target.Position + new IntVec3(0, 0, 1)).GetFirstThing<Wall_DescendingWall>(Map));
-        Connect((target.Position + new IntVec3(0, 0, -1)).GetFirstThing<Wall_DescendingWall>(Map));
+            target.isSelectored = true;
+            Find.Selector.Select(target, false);
+            Connect((target.Position + new IntVec3(1, 0, 0)).GetFirstThing<Wall_DescendingWall>(Map));
+            Connect((target.Position + new IntVec3(-1, 0, 0)).GetFirstThing<Wall_DescendingWall>(Map));
+            Connect((target.Position + new IntVec3(0, 0, 1)).GetFirstThing<Wall_DescendingWall>(Map));
+            target = (target.Position + new IntVec3(0, 0, -1)).GetFirstThing<Wall_DescendingWall>(Map);
+        }
     }
 }

@@ -77,32 +77,36 @@ public class PawnSweeper : Thing, IThingHolder, IAttackTarget
 
     private void Affect()
     {
-        if (targets.Count > 0)
+        while (true)
         {
-            var index = targets.Count - 1;
-            var pawn = targets[index];
-            targets.RemoveAt(index);
-            if (pawn is not { Spawned: true })
+            if (targets.Count > 0)
             {
-                Affect();
-                return;
-            }
+                var index = targets.Count - 1;
+                var pawn = targets[index];
+                targets.RemoveAt(index);
+                if (pawn is not { Spawned: true })
+                {
+                    continue;
+                }
 
-            ShowFleck(pawn.DrawPos);
-            ShowHitFleck(pawn.DrawPos);
-            lastPos = pawn.DrawPos;
-            if (targets.Count == 0 && lastPos.ToIntVec3() == Position)
+                ShowFleck(pawn.DrawPos);
+                ShowHitFleck(pawn.DrawPos);
+                lastPos = pawn.DrawPos;
+                if (targets.Count == 0 && lastPos.ToIntVec3() == Position)
+                {
+                    Destroy();
+                }
+
+                pawn.TakeDamage(new DamageInfo(RimWorld.DamageDefOf.Cut, 19f, 0.6f,
+                    (pawn.DrawPos - Position.ToVector3Shifted()).AngleFlat(), Pawn));
+            }
+            else
             {
+                ShowFleck(Position.ToVector3Shifted());
                 Destroy();
             }
 
-            pawn.TakeDamage(new DamageInfo(RimWorld.DamageDefOf.Cut, 19f, 0.6f,
-                (pawn.DrawPos - Position.ToVector3Shifted()).AngleFlat(), Pawn));
-        }
-        else
-        {
-            ShowFleck(Position.ToVector3Shifted());
-            Destroy();
+            break;
         }
     }
 
