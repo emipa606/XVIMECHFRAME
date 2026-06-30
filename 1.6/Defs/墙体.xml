@@ -18,6 +18,9 @@
     </statBases>
     <costStuffCount>10</costStuffCount>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <researchPrerequisites>
+      <li>Autodoors</li>
+    </researchPrerequisites>
     <designationHotKey Inherit="False" />
     <costList Inherit="False">
       <Steel>7</Steel>
@@ -53,6 +56,9 @@
     <costStuffCount>10</costStuffCount>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationHotKey Inherit="False" />
+    <researchPrerequisites>
+      <li>Autodoors</li>
+    </researchPrerequisites>
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <passability>PassThroughOnly</passability>
     <designationCategory Inherit="False" />
@@ -74,7 +80,7 @@
   <ThingDef ParentName="Wall">
     <defName>XFMParmor_SelfRepairingWall</defName>
     <label>regenerating wall</label>
-    <description>Advanced wall that repairs damage overtime at the expence of heightened power consumption.</description>
+    <description>Advanced wall that repairs damage overtime at the expense of heightened power consumption.</description>
     <thingClass>MParmorLibrary.Wall_SelfRepairing</thingClass>
     <graphicData>
       <texPath>XFMParmor/Wall_SelfRepairing</texPath>
@@ -92,6 +98,9 @@
     <costStuffCount>10</costStuffCount>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <designationHotKey Inherit="False" />
+    <researchPrerequisites>
+      <li>Fabrication</li>
+    </researchPrerequisites>
     <costList Inherit="False">
       <Steel>3</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>

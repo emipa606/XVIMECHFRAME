@@ -1,5 +1,8 @@
 # Changelog for XVIMECHFRAME
 
+1.6.4 - Added research requirements to the articulated and regenerating walls
+
+
 1.6.3 - Fixed the game crash in CE
 
 
