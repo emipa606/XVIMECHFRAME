@@ -5,9 +5,9 @@ namespace MParmorLibrary;
 
 public class DamageWorker_PreventFriendly : DamageWorker_AddInjury
 {
-    public override DamageResult Apply(DamageInfo dinfo, Thing victim)
+    public override DamageResult Apply(DamageInfo dinfo, Thing thing)
     {
-        return !ToolsLibrary_MParmorOnly.IsUnfriendly(dinfo, victim) ? new DamageResult() : base.Apply(dinfo, victim);
+        return !ToolsLibrary_MParmorOnly.IsUnfriendly(dinfo, thing) ? new DamageResult() : base.Apply(dinfo, thing);
     }
 
     protected override void ExplosionDamageThing(Explosion explosion, Thing t, List<Thing> damagedThings,

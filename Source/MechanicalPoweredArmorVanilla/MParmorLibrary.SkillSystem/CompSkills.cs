@@ -6,7 +6,6 @@ namespace MParmorLibrary.SkillSystem;
 
 public class CompSkills : ThingComp
 {
-    private const float TotalChargingPower = 1040f;
     public List<SkillObject> skills = [];
 
     public Pawn Wearer => ParentHolder is not Pawn_ApparelTracker { pawn: var pawn } ? null : pawn;

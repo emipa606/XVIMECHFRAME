@@ -53,4 +53,12 @@
   <Folder Name="/XML/About/">
     <File Path="../About/about.xml" />
   </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Anti.xml" />
+    <File Path="../Languages/English/Keyed/Building.xml" />
+    <File Path="../Languages/English/Keyed/Gizmo.xml" />
+    <File Path="../Languages/English/Keyed/Misc.xml" />
+    <File Path="../Languages/English/Keyed/MParmor.xml" />
+    <File Path="../Languages/English/Keyed/Settings.xml" />
+  </Folder>
 </Solution>

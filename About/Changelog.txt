@@ -1,5 +1,9 @@
 # Changelog for XVIMECHFRAME
 
+1.6.5 - Added mod-option to controll walls during combat. Added a few gizmo icons
+Used DeepL to update translations for ChineseSimplified, French, German
+
+
 1.6.4 - Added research requirements to the articulated and regenerating walls
 
 

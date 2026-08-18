@@ -6,7 +6,7 @@ namespace MParmorLibrary;
 
 public class Building_FabricationCentralSystem : Building
 {
-    public static List<Building_FabricationCentralSystem> Cache = [];
+    public static readonly List<Building_FabricationCentralSystem> Cache = [];
 
     public CompPowerTrader CompPower => field ?? (field = GetComp<CompPowerTrader>());
 

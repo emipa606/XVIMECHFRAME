@@ -37,14 +37,25 @@ public class Gizmo_MParmorGUI : Gizmo
             text2 += "XFMParmor_Gizmo_MParmor_D".Translate(healthTracker.Shield.ToString("0.#"),
                 healthTracker.ShieldMax.ToString());
             tip.text += "\n";
-            tip.text += healthTracker.Shield >= healthTracker.ShieldMax
-                ? "XFMParmor_Gizmo_MParmor_E".TranslateSimple()
-                : healthTracker.ShieldRecoveryCDInt == 0
-                    ? "XFMParmor_Gizmo_MParmor_F".TranslateSimple()
-                    : core.CanChargeShield
-                        ? "XFMParmor_Gizmo_MParmor_G".Translate(
-                            (healthTracker.ShieldRecoveryCDInt / 60f).ToString("0.0"))
-                        : "XFMParmor_Gizmo_MParmor_H".TranslateSimple();
+            string shieldStatusText;
+            if (healthTracker.Shield >= healthTracker.ShieldMax)
+            {
+                shieldStatusText = "XFMParmor_Gizmo_MParmor_E".TranslateSimple();
+            }
+            else if (healthTracker.ShieldRecoveryCDInt == 0)
+            {
+                shieldStatusText = "XFMParmor_Gizmo_MParmor_F".TranslateSimple();
+            }
+            else if (core.CanChargeShield)
+            {
+                shieldStatusText = "XFMParmor_Gizmo_MParmor_G".Translate(
+                    (healthTracker.ShieldRecoveryCDInt / 60f).ToString("0.0"));
+            }
+            else
+            {
+                shieldStatusText = "XFMParmor_Gizmo_MParmor_H".TranslateSimple();
+            }
+            tip.text += shieldStatusText;
             tip.text += "\n";
             ref var text3 = ref tip.text;
             text3 += "XFMParmor_Gizmo_MParmor_B".Translate(powerTracker.ElectiricityLabel);

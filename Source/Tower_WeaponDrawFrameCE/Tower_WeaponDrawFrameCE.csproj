@@ -3,16 +3,19 @@
     <OutputPath>..\..\CE\1.6\Assemblies</OutputPath>
     <AssemblyName>Tower_WeaponDrawFrame</AssemblyName>
     <TargetFramework>net48</TargetFramework>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <DebugType>None</DebugType>
     <LangVersion>latest</LangVersion>
-    <FileVersion>1.6.3</FileVersion>
+    <FileVersion>1.6.5</FileVersion>
+    <AssemblyVersion>1.6</AssemblyVersion>
+    <Product>XVI-MECHFRAME (Continued)</Product>
+    <Copyright>© andery233xj[旋风] 2026 - MIT License</Copyright>
+    <Nullable>warnings</Nullable>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Krafs.Rimworld.Ref">
-      <Version>1.6.4759-beta</Version>
+      <Version>*</Version>
       <ExcludeAssets>runtime</ExcludeAssets>
       <IncludeAssets>compile; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>

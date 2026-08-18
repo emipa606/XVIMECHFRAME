@@ -32,13 +32,13 @@ public class Gizmo_Shield : Gizmo
         var rect3 = new Rect(topLeft.x + 9f, topLeft.y + 41f, 157f, 25f);
         ToolsLibrary.FillableBarByRot4(rect3, fillPercent, Rot4.East, Colors.shieldHurtBarTex,
             Colors.shieldEmptyBarTex);
-        if (fillPercent2 == -1f)
+        if (fillPercent2.Equals(-1f))
         {
             fillPercent2 = fillPercent;
         }
 
         ToolsLibrary.FillableBarByRot4(rect3, fillPercent2, Rot4.East, Colors.shieldBarTex);
-        if (fillPercent3 != -1f)
+        if (!fillPercent3.Equals(-1f))
         {
             var rect4 = new Rect(topLeft.x + 9f, topLeft.y + 62f, 157f, 2f);
             ToolsLibrary.FillableBarByRot4(rect4, fillPercent3, Rot4.East, Colors.aqua, Colors.labelUnfilledMatBlack);

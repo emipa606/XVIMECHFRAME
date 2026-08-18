@@ -57,7 +57,7 @@ public class Verb_MeleeAttackDamage_Area : Verb_MeleeAttackDamage
             {
                 if (!Rand.Chance((float)method2.Invoke(this, [target])))
                 {
-                    soundDef = method3.Invoke(this, []) as SoundDef;
+                    soundDef = method3?.Invoke(this, []) as SoundDef;
                     if (verbProps.impactMote != null)
                     {
                         MoteMaker.MakeStaticMote(drawPos, map, verbProps.impactMote);
@@ -69,7 +69,7 @@ public class Verb_MeleeAttackDamage_Area : Verb_MeleeAttackDamage
                     }
 
                     var battleLogEntry_MeleeCombat =
-                        method.Invoke(this, [func, true, target]) as BattleLogEntry_MeleeCombat;
+                        method?.Invoke(this, [func, true, target]) as BattleLogEntry_MeleeCombat;
                     result = true;
                     var damageResult = ApplyMeleeDamageToTarget(target);
                     if (damageResult.stunned && damageResult.parts.NullOrEmpty())
@@ -81,22 +81,22 @@ public class Verb_MeleeAttackDamage_Area : Verb_MeleeAttackDamage
                         damageResult.AssociateWithLog(battleLogEntry_MeleeCombat);
                         if (damageResult.deflected)
                         {
-                            battleLogEntry_MeleeCombat.RuleDef = maneuver.combatLogRulesDeflect;
-                            battleLogEntry_MeleeCombat.alwaysShowInCompact = false;
+                            battleLogEntry_MeleeCombat?.RuleDef = maneuver.combatLogRulesDeflect;
+                            battleLogEntry_MeleeCombat?.alwaysShowInCompact = false;
                         }
                     }
                 }
                 else
                 {
-                    soundDef = method4.Invoke(this, [target]) as SoundDef;
+                    soundDef = method4?.Invoke(this, [target]) as SoundDef;
                     MoteMaker.ThrowText(drawPos, map, "TextMote_Dodge".Translate(), 1.9f);
-                    method.Invoke(this, [func, true, target]);
+                    method?.Invoke(this, [func, true, target]);
                 }
             }
             else
             {
-                soundDef = method5.Invoke(this, []) as SoundDef;
-                method.Invoke(this, [func, true, target]);
+                soundDef = method5?.Invoke(this, []) as SoundDef;
+                method?.Invoke(this, [func, true, target]);
             }
 
             soundDef.PlayOneShot(new TargetInfo(target.Position, map));

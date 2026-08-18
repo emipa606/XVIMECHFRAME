@@ -36,7 +36,10 @@ public class Main : Mod
             ref settings.putWeaponIntoInventory, "XFMParmor_Settings_putWeaponIntoInventoryB".Translate());
         listing_Standard.CheckboxLabeled("XFMParmor_Settings_forceFriendlyFireA".Translate(),
             ref settings.forceFriendlyFire, "XFMParmor_Settings_forceFriendlyFireB".Translate());
+        listing_Standard.CheckboxLabeled("XFMParmor_Settings_allowWallChangeInCombatA".Translate(),
+            ref settings.allowWallChangeInCombat, "XFMParmor_Settings_allowWallChangeInCombatB".Translate());
         Text.Font = GameFont.Small;
+        listing_Standard.GapLine(20f);
         foreach (var item in DataLibraryInstance.DataLibrary.forceFriendlyFire)
         {
             listing_Standard.Label(item);

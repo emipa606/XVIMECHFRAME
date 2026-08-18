@@ -22,7 +22,7 @@ public class DamageWorker_ExplosionWithDirection_Ice : DamageWorker_AddInjury
             ((c - explosion.Position).LengthHorizontalSquared < 6.25f || Rand.Chance(0.2f)))
         {
             var building_IceSpike = ThingMaker.MakeThing(ThingDefOf.XFMParmor_IceSpike) as Building_IceSpike;
-            building_IceSpike?.owner = explosion.instigator;
+            building_IceSpike?.Owner = explosion.instigator;
             building_IceSpike?.SetFaction(explosion.instigator.Faction);
             GenPlace.TryPlaceThing(building_IceSpike, c, explosion.Map, ThingPlaceMode.Direct, null, null,
                 default(Rot4));

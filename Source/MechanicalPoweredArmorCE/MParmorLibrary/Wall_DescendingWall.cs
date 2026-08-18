@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using MParmorLibrary.Settings;
 using RimWorld;
 using UnityEngine;
 using Verse;
@@ -44,6 +45,9 @@ public class Wall_DescendingWall : Building
                 ? "XFMParmor_Wall_DescendingWallA".Translate()
                 : "XFMParmor_Wall_DescendingWallB".Translate(),
             defaultDesc = "XFMParmor_Wall_DescendingWallAd".Translate(),
+            icon = IsDescending
+                ? TexButton.ReorderUp
+                : TexButton.ReorderDown,
             action = delegate
             {
                 var position = Position;
@@ -78,7 +82,7 @@ public class Wall_DescendingWall : Building
             return command_Action;
         }
 
-        if (Find.TickManager.slower.ForcedNormalSpeed)
+        if (Find.TickManager.slower.ForcedNormalSpeed && !Setting.Settings.allowWallChangeInCombat)
         {
             command_Action.Disable("XFMParmor_Wall_DescendingWallC".Translate());
         }
@@ -92,6 +96,7 @@ public class Wall_DescendingWall : Building
         {
             defaultLabel = "XFMParmor_Wall_DescendingWallD".Translate(),
             defaultDesc = "XFMParmor_Wall_DescendingWallDd".Translate(),
+            icon = ContentFinder<Texture2D>.Get("UI/Icons/SwitchFaction"),
             action = delegate
             {
                 foreach (var instance in instances)

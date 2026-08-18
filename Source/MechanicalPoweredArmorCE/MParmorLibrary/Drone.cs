@@ -41,6 +41,12 @@ public class Drone : Pawn, IIntercept
         return ToolsLibrary_MParmorOnly.IsUnfriendly(projectile, this) && num < 24.01f && num > 12.25;
     }
 
+    public bool CanIntercept(ProjectileCE projectile, IntVec3 c)
+    {
+        float num = (Position - c).LengthHorizontalSquared;
+        return ToolsLibrary_MParmorOnly.IsUnfriendly(projectile, this) && num is < 29.160002f and > 12.25f;
+    }
+
     public bool TryIntercept(Projectile projectile, IntVec3 c)
     {
         var dinfo = new DamageInfo(projectile.def.projectile.damageDef, projectile.DamageAmount,
@@ -56,12 +62,6 @@ public class Drone : Pawn, IIntercept
         }
 
         return true;
-    }
-
-    public bool CanIntercept(ProjectileCE projectile, IntVec3 c)
-    {
-        float num = (Position - c).LengthHorizontalSquared;
-        return ToolsLibrary_MParmorOnly.IsUnfriendly(projectile, this) && num is < 29.160002f and > 12.25f;
     }
 
     public bool TryIntercept(ProjectileCE projectile, IntVec3 c)

@@ -55,7 +55,7 @@ public class Building_ChargingStation : Building, IChargingEquipment
     {
         yield return new Command_SetChargingPower
         {
-            equipment = this,
+            Equipment = this,
             defaultLabel = "XFMParmor_Building_ChargingStation_GetGizmosA".Translate(),
             defaultDesc = "XFMParmor_Building_ChargingStation_GetGizmosB".Translate(),
             icon = Texture2DOf.SetTargetFuelLevelCommand

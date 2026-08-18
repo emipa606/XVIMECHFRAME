@@ -5,13 +5,13 @@ namespace MParmorLibrary;
 
 public class Command_SetChargingPower : Command
 {
-    public IChargingEquipment equipment;
+    public IChargingEquipment Equipment { get; set; }
 
     public override void ProcessInput(Event ev)
     {
         base.ProcessInput(ev);
-        var window = new Dialog_Slider(textGetter, 1, 18, delegate(int value) { equipment.ChargingPower = value; },
-            equipment.ChargingPower);
+        var window = new Dialog_Slider(textGetter, 1, 18, delegate(int value) { Equipment.ChargingPower = value; },
+            Equipment.ChargingPower);
         Find.WindowStack.Add(window);
         return;
 

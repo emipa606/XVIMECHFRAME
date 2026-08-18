@@ -9,4 +9,6 @@
   <XFMParmor_Settings_putWeaponIntoInventoryB>Whether the pilot should put their weapons into their inventory when entering mechframes instead of leaving them on the ground.</XFMParmor_Settings_putWeaponIntoInventoryB>
   <XFMParmor_Settings_forceFriendlyFireA>Do friendly fire</XFMParmor_Settings_forceFriendlyFireA>
   <XFMParmor_Settings_forceFriendlyFireB>Whether certain mechanisms and attacks should deall friendly damage except for casters themselves. This option is off by default.</XFMParmor_Settings_forceFriendlyFireB>
+  <XFMParmor_Settings_allowWallChangeInCombatA>Allow wall change in combat</XFMParmor_Settings_allowWallChangeInCombatA>
+  <XFMParmor_Settings_allowWallChangeInCombatB>Whether the raisable wall should be usable during combat. This option is off by default.</XFMParmor_Settings_allowWallChangeInCombatB>
 </LanguageData>

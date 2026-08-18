@@ -7,11 +7,11 @@ namespace MParmorLibrary.SingleObject;
 
 public class AcquisitionManagement : IExposable
 {
-    public static AcquisitionManagement instance = new();
+    internal static AcquisitionManagement instance = new();
 
-    public static bool instanceBoolForBodySize;
+    internal static bool instanceBoolForBodySize;
 
-    public static bool instanceBoolForDrawPawnGUIOverlay;
+    internal static bool instanceBoolForDrawPawnGUIOverlay;
 
     public List<MParmorCore> cores = [];
 

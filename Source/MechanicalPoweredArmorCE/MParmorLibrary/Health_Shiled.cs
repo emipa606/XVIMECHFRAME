@@ -35,7 +35,7 @@ public class Health_Shiled : IExposable
 
     public float Shield
     {
-        get => shieldInt == -1f ? shieldInt = shieldMax : shieldInt;
+        get => shieldInt.Equals(-1f) ? shieldInt = shieldMax : shieldInt;
         private set
         {
             if (value > ShieldMax)

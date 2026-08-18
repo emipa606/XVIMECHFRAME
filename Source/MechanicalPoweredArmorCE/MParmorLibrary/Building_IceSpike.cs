@@ -7,14 +7,14 @@ namespace MParmorLibrary;
 
 public class Building_IceSpike : Building
 {
-    private const int wickTick = 360;
+    private const float wickTick = 360f;
 
     private bool actived;
-    public Thing owner;
 
     private int wickTicks;
+    public Thing Owner { get; set; }
 
-    private float WickPercentage => wickTicks < 0 ? 0f : wickTicks / 360f;
+    private float WickPercentage => wickTicks < 0 ? 0f : wickTicks / wickTick;
 
     protected override void DrawAt(Vector3 drawLoc, bool flip = false)
     {
@@ -33,7 +33,7 @@ public class Building_IceSpike : Building
     {
         if (thing is Pawn b)
         {
-            return ToolsLibrary_MParmorOnly.IsUnfriendly(owner, b);
+            return ToolsLibrary_MParmorOnly.IsUnfriendly(Owner, b);
         }
 
         return false;
@@ -55,7 +55,7 @@ public class Building_IceSpike : Building
     {
         if (WickPercentage >= 1f)
         {
-            var thing = owner;
+            var thing = Owner;
             var position = Position;
             var map = Map;
             Destroy();
@@ -96,7 +96,7 @@ public class Building_IceSpike : Building
         while (list.Count > 0)
         {
             var thing = list[^1];
-            var dinfo = new DamageInfo(RimWorld.DamageDefOf.Stab, 24f, 20f, -1f, owner);
+            var dinfo = new DamageInfo(RimWorld.DamageDefOf.Stab, 24f, 20f, -1f, Owner);
             dinfo.SetBodyRegion(BodyPartHeight.Bottom);
             thing.TakeDamage(dinfo);
             list.RemoveAt(list.Count - 1);

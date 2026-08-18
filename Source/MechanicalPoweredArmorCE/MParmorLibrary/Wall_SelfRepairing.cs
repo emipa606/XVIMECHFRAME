@@ -114,6 +114,7 @@ public class Wall_SelfRepairing : Building
         {
             yield return new Command_Toggle
             {
+                icon = TexButton.AutoRebuild,
                 isActive = () => !NotAllowFix,
                 defaultLabel = "XFMParmor_Wall_SelfRepairing_Gizmo".Translate(),
                 defaultDesc = "XFMParmor_Wall_SelfRepairing_Gizmod".Translate(),

@@ -5,7 +5,7 @@ namespace MParmorLibrary.SingleObject;
 
 public class ProjectilesStore
 {
-    public static ProjectilesStore instance = new();
+    private static ProjectilesStore instance = new();
 
     public List<Projectile> projectiles = [];
 

@@ -10,6 +10,6 @@
   <XFMParmor_DescendingWall_Descending.description>The internal mechanisms allows this wall to be raised or lowered when powered. Safety system prevents activation under combat situations.</XFMParmor_DescendingWall_Descending.description>
   <!-- EN: regenerating wall -->
   <XFMParmor_SelfRepairingWall.label>regenerating wall</XFMParmor_SelfRepairingWall.label>
-  <!-- EN: Advanced wall that repairs damage overtime at the expence of heightened power consumption. -->
-  <XFMParmor_SelfRepairingWall.description>Advanced wall that repairs damage overtime at the expence of heightened power consumption.</XFMParmor_SelfRepairingWall.description>
+  <!-- EN: Advanced wall that repairs damage overtime at the expense of heightened power consumption. -->
+  <XFMParmor_SelfRepairingWall.description>Advanced wall that repairs damage overtime at the expense of heightened power consumption.</XFMParmor_SelfRepairingWall.description>
 </LanguageData>

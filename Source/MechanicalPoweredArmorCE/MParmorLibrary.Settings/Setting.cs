@@ -4,6 +4,7 @@ namespace MParmorLibrary.Settings;
 
 public class Setting : ModSettings
 {
+    public bool allowWallChangeInCombat;
     public bool forceDrafted = true;
     public bool forceFriendlyFire;
 
@@ -16,6 +17,7 @@ public class Setting : ModSettings
     public override void ExposeData()
     {
         base.ExposeData();
+        Scribe_Values.Look(ref allowWallChangeInCombat, "allowWallChangeInCombat");
         Scribe_Values.Look(ref forceFriendlyFire, "forceFriendlyFire");
         Scribe_Values.Look(ref forceDrafted, "forceDrafted", true);
         Scribe_Values.Look(ref getOutAfterDrafted, "getOutAfterDrafted", true);

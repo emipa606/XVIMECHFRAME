@@ -43,7 +43,7 @@ public static class GenAiSystem
         }
 
         cache.SortBy(coreE => ToolsLibrary.GetDistance(coreE.Wearer.Position, pawn.Position));
-        core = cache.First();
+        core = cache[0];
         return true;
     }
 

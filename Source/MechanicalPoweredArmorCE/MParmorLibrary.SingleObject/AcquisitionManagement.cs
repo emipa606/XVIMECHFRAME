@@ -7,11 +7,11 @@ namespace MParmorLibrary.SingleObject;
 
 public class AcquisitionManagement : IExposable
 {
-    public static AcquisitionManagement instance = new();
+    internal static AcquisitionManagement instance = new();
 
-    public static bool instanceBoolForBodySize;
+    internal static bool instanceBoolForBodySize;
 
-    public static bool instanceBoolForDrawPawnGUIOverlay;
+    internal static bool instanceBoolForDrawPawnGUIOverlay;
 
     public List<MParmorCore> cores = [];
 
@@ -134,8 +134,8 @@ public class AcquisitionManagement : IExposable
     private static void ResetCachePool()
     {
         MParmorBuilding.Cache = [];
-        Building_FabricationCentralSystem.Cache = [];
-        Building_FabricationPit.Cache = [];
+        Building_FabricationCentralSystem.Cache.Clear();
+        Building_FabricationPit.Cache.Clear();
         Wall_DescendingWall.instances = [];
         ProjectilesStore.GetInstance().projectiles = [];
         Intercepts.intercepts.Clear();

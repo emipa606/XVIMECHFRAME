@@ -8,15 +8,15 @@ public class CompMechanicalArmor : ThingComp
 {
     public MechanicalArmorDef MPArmor => Props.mechanicalArmor;
 
-    public bool IsCore => parent.def == MPArmor.core;
+    private bool IsCore => parent.def == MPArmor.core;
 
-    public bool IsWeapon => parent is not Apparel;
+    private bool IsWeapon => parent is not Apparel;
 
-    public int TestforNumber => parent.thingIDNumber % 30;
+    private int TestforNumber => parent.thingIDNumber % 30;
 
-    public CompProperties_MechanicalArmor Props => props as CompProperties_MechanicalArmor;
+    private CompProperties_MechanicalArmor Props => props as CompProperties_MechanicalArmor;
 
-    public Pawn Wearer => IsWeapon ? null : (parent as Apparel)?.Wearer;
+    private Pawn Wearer => IsWeapon ? null : (parent as Apparel)?.Wearer;
 
     public override void PostSpawnSetup(bool respawningAfterLoad)
     {

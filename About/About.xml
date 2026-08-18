@@ -108,6 +108,6 @@ After 442 days of development, we are finally able to finish and pub
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3646346903][img]https://img.shields.io/github/v/release/emipa606/XVIMECHFRAME?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags: modular upgrades, intelligent combat</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.4</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/3646346903][img]https://img.shields.io/github/v/release/emipa606/XVIMECHFRAME?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | modular upgrades, intelligent combat</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.5</modVersion>
 </ModMetaData>

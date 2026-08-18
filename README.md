@@ -83,4 +83,4 @@ After 442 days of development, we are finally able to finish and pub
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/XVIMECHFRAME?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3646346903) | tags: modular upgrades, intelligent combat
+[![Image](https://img.shields.io/github/v/release/emipa606/XVIMECHFRAME?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/3646346903) | modular upgrades, intelligent combat

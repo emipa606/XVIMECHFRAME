@@ -60,7 +60,7 @@ public class SkillObject : IExposable, IVerbOwner, ILoadReferenceable
 
     public List<VerbProperties> VerbProperties => [skill.verb];
 
-    public List<Tool> Tools => null;
+    public List<Tool> Tools => [];
 
     public ImplementOwnerTypeDef ImplementOwnerTypeDef => ImplementOwnerTypeDefOf.NativeVerb;
 

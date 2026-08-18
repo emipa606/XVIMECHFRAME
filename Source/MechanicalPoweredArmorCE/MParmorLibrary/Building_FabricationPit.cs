@@ -10,17 +10,17 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
 {
     private const int FabricationTime = 30000;
 
-    public static List<Building_FabricationPit> Cache = [];
+    public static readonly List<Building_FabricationPit> Cache = [];
 
     private int chargingPower = 7;
 
     private CompPowerTrader compPower;
 
-    public int fabricationTimeLate;
+    private int fabricationTimeLate;
 
     private MParmorBuilding mParmor;
 
-    public MechanicalArmorDef productionMParmor;
+    private MechanicalArmorDef productionMParmor;
 
     private RecipeDef recipeDef;
 
@@ -159,7 +159,7 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
         building?.SetFactionDirect(Faction);
         GenPlace.TryPlaceThing(building, Position, Map, ThingPlaceMode.Direct, null, null, default(Rot4));
         unfinishedThing = building;
-        fabricationTimeLate = 30000;
+        fabricationTimeLate = FabricationTime;
         UpdateState();
     }
 
@@ -260,7 +260,7 @@ public class Building_FabricationPit : Building_WorkTableWithActions, IChargingE
 
         yield return new Command_SetChargingPower
         {
-            equipment = this,
+            Equipment = this,
             defaultLabel = "XFMParmor_Building_ChargingStation_GetGizmosA".Translate(),
             defaultDesc = "XFMParmor_Building_ChargingStation_GetGizmosB".Translate(),
             icon = Texture2DOf.SetTargetFuelLevelCommand
